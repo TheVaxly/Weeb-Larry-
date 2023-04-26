@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "name": "Luffy",
+            "value": 1000,
+            "url": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200429191518",
+            "rank": "https://cdn.discordapp.com/attachments/863806697901522955/1097570263870218371/ss.png"
+        },
+        {
+            "name": "Naruto",
+            "value": 1100,
+            "url": "https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png/revision/latest/scale-to-width-down/1200?cb=20210223094656",
+            "rank": "https://cdn.discordapp.com/attachments/863806697901522955/1097570263870218371/ss.png"
+        },
+        {
+            "name": "Goku",
+            "value": 10000,
+            "url": "https://www.cartonionline.com/wordpress/wp-content/uploads/2023/02/goku.jpg",
+            "rank": "https://cdn.discordapp.com/attachments/863806697901522955/1097570263870218371/ss.png"
+        }
+    ]
+}
