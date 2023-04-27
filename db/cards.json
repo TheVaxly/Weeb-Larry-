@@ -99,7 +99,7 @@
         {
             "name": "Sakura",
             "value": 4000,
-            "url": "https://i.pinimg.com/originals/3a/53/4e/3a534e80c63507f851992634762f5913.jpg",
+            "url": "https://cdn.myanimelist.net/images/characters/9/297919.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Naruto"
@@ -107,7 +107,7 @@
         {
             "name": "Kakashi",
             "value": 3000,
-            "url": "https://i.pinimg.com/originals/c2/2a/06/c22a06259e38eb277165d8df01dbbbc5.jpg",
+            "url": "https://cdn.myanimelist.net/images/characters/6/483952.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Naruto"
@@ -115,7 +115,7 @@
         {
             "name": "Minato",
             "value": 3000,
-            "url": "https://a-static.besthdwallpaper.com/minato-namikaze-using-his-resengan-naruto-wallpaper-1284x2778-109592_228.jpg",
+            "url": "https://cdn.myanimelist.net/images/characters/16/83177.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Naruto"
@@ -131,7 +131,7 @@
         {
             "name": "Obito",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/337810.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Naruto"
@@ -139,7 +139,7 @@
         {
             "name": "Pain",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/183677.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Naruto"
@@ -147,7 +147,7 @@
         {
             "name": "Itachi",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/307602.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Naruto"
@@ -155,7 +155,7 @@
         {
             "name": "Shikamaru",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/96023.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Naruto"
@@ -163,7 +163,7 @@
         {
             "name": "Goku",
             "value": 5000,
-            "url": "",
+            "url": "https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1600.png",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Dragon Ball"
@@ -171,7 +171,7 @@
         {
             "name": "Vegeta",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/349368.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Dragon Ball"
@@ -179,7 +179,7 @@
         {
             "name": "Piccolo",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/45628.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Dragon Ball"
@@ -187,7 +187,7 @@
         {
             "name": "Goten",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/113178.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Dragon Ball"
@@ -195,7 +195,7 @@
         {
             "name": "Krillin",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/442484.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Dragon Ball"
@@ -203,7 +203,7 @@
         {
             "name": "Broly",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/380652.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Dragon Ball"
@@ -211,7 +211,7 @@
         {
             "name": "Frieza",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/334355.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Dragon Ball"
@@ -219,7 +219,7 @@
         {
             "name": "Beerus",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/348954.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Dragon Ball"
@@ -227,7 +227,7 @@
         {
             "name": "Gohan",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Dragon Ball"
@@ -235,23 +235,23 @@
         {
             "name": "Rangiku Matsumoto",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/33264.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Bleach"
         },
         {
-            "name": "Yoruichi Shihoin",
+            "name": "Yoruichi",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/33266.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
-            "rarity": "C",
+            "rarity": "S",
             "anime": "Bleach"
         },
         {
             "name": "Byakuya Kuchiki",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/31755.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Bleach"
@@ -259,7 +259,7 @@
         {
             "name": "Toshiro Hitsugaya",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/36579.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Bleach"
@@ -267,7 +267,7 @@
         {
             "name": "Grimmjow Jaegerjaquez",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/69881.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Bleach"
@@ -275,7 +275,7 @@
         {
             "name": "Orihime Inoue",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/73329.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Bleach"
@@ -283,7 +283,7 @@
         {
             "name": "Aizen",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/93189.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Bleach"
@@ -291,7 +291,7 @@
         {
             "name": "Kenpachi Zaraki",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/31753.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Bleach"
@@ -299,7 +299,7 @@
         {
             "name": "Kisuke Urahara",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/30179.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Bleach"
@@ -307,7 +307,7 @@
         {
             "name": "Ichigo Kurosaki",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/479495.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Bleach"
@@ -315,7 +315,7 @@
         {
             "name": "Rukia Kuchiki",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/348102.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Bleach"
@@ -323,15 +323,15 @@
         {
             "name": "Lelouch",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/406163.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Code Geass"
         },
         {
-            "name": "C.C",
+            "name": "C.C.",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/487041.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Code Geass"
@@ -339,7 +339,7 @@
         {
             "name": "Kallen",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/462544.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Code Geass"
@@ -347,7 +347,7 @@
         {
             "name": "Suzaku",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/80223.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Code Geass"
@@ -355,7 +355,7 @@
         {
             "name": "Nunnaly",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/77744.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Code Geass"
@@ -363,7 +363,7 @@
         {
             "name": "Shirley",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/492934.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Code Geass"
@@ -371,7 +371,7 @@
         {
             "name": "Charles",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/94292.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Code Geass"
@@ -379,7 +379,7 @@
         {
             "name": "Euphemia",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/59279.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Code Geass"
@@ -387,7 +387,7 @@
         {
             "name": "Dabi",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/454749.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "MHA"
@@ -395,7 +395,7 @@
         {
             "name": "Toga Himiko",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/406105.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "MHA"
@@ -403,7 +403,7 @@
         {
             "name": "Tsuyu",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/335540.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "MHA"
@@ -411,7 +411,7 @@
         {
             "name": "Ochaco",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/277040.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "MHA"
@@ -419,15 +419,15 @@
         {
             "name": "Shigaraki",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/384335.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "MHA"
         },
         {
-            "name": "Deku",
+            "name": "Izuku Midoriya",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/329736.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "MHA"
@@ -435,7 +435,7 @@
         {
             "name": "Aizawa",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/267257.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "MHA"
@@ -443,7 +443,7 @@
         {
             "name": "All Might",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/304527.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "MHA"
@@ -451,7 +451,7 @@
         {
             "name": "Bakugo",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/268129.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "MHA"
@@ -459,7 +459,7 @@
         {
             "name": "Todoroki",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/277037.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "MHA"
@@ -467,7 +467,7 @@
         {
             "name": "Historia",
             "value": 2000,
-            "url": "",
+            "url": "https://i.pinimg.com/736x/f8/54/2d/f8542d2468e80856f535306ca24d5209.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Attack on Titan"
@@ -475,7 +475,7 @@
         {
             "name": "Jean",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/439721.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Attack on Titan"
@@ -483,7 +483,7 @@
         {
             "name": "Annie",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/205015.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Attack on Titan"
@@ -491,7 +491,7 @@
         {
             "name": "Sasha",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/438154.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Attack on Titan"
@@ -499,7 +499,7 @@
         {
             "name": "Hange",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/434524.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Attack on Titan"
@@ -507,7 +507,7 @@
         {
             "name": "Armin",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/434257.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Attack on Titan"
@@ -515,7 +515,7 @@
         {
             "name": "Erwin",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/393228.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Attack on Titan"
@@ -523,7 +523,7 @@
         {
             "name": "Eren",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/487557.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Attack on Titan"
@@ -531,7 +531,7 @@
         {
             "name": "Levi",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/339170.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Attack on Titan"
@@ -539,7 +539,7 @@
         {
             "name": "Mikasa",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/370450.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Attack on Titan"
@@ -547,7 +547,7 @@
         {
             "name": "Edward Elric",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/342814.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Fullmetal Alchemist"
@@ -555,7 +555,7 @@
         {
             "name": "Roy Mustang",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/61348.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Fullmetal Alchemist"
@@ -563,7 +563,7 @@
         {
             "name": "Alphonse Elric",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/86610.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Fullmetal Alchemist"
@@ -571,7 +571,7 @@
         {
             "name": "Riza Hawkeye",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/39616.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Fullmetal Alchemist"
@@ -579,7 +579,7 @@
         {
             "name": "Maes Hughes",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/388694.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Fullmetal Alchemist"
@@ -587,15 +587,15 @@
         {
             "name": "Van Hohenheim",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/81069.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fullmetal Alchemist"
         },
         {
-            "name": "Father",
+            "name": "Homunculus (Father)",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/68377.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fullmetal Alchemist"
@@ -603,7 +603,7 @@
         {
             "name": "Pride/Wrath",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/80548.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fullmetal Alchemist"
@@ -611,7 +611,7 @@
         {
             "name": "Winry Rockbell",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/39613.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fullmetal Alchemist"
@@ -619,7 +619,7 @@
         {
             "name": "Muzan",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/384522.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Demon Slayer"
@@ -627,7 +627,7 @@
         {
             "name": "Mitsuri",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/387498.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Demon Slayer"
@@ -635,7 +635,7 @@
         {
             "name": "Kanao",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/384712.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Demon Slayer"
@@ -643,7 +643,7 @@
         {
             "name": "Giyuu",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/369049.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Demon Slayer"
@@ -651,7 +651,7 @@
         {
             "name": "Shinobu",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Demon Slayer"
@@ -659,7 +659,7 @@
         {
             "name": "Rengoku",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/356105.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Demon Slayer"
@@ -667,7 +667,7 @@
         {
             "name": "Nezuko",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/380411.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Demon Slayer"
@@ -675,7 +675,7 @@
         {
             "name": "Inosuke",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/384694.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Demon Slayer"
@@ -683,7 +683,7 @@
         {
             "name": "Zenitsu",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/383399.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Demon Slayer"
@@ -691,7 +691,7 @@
         {
             "name": "Tanjiro",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/356100.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Demon Slayer"  
@@ -699,7 +699,7 @@
         {
             "name": "Rika Shinozaki",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/178181.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Sword Art Online"
@@ -707,7 +707,7 @@
         {
             "name": "Klein",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/307668.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Sword Art Online"
@@ -715,7 +715,7 @@
         {
             "name": "Tiese",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/239851.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Sword Art Online"
@@ -723,7 +723,7 @@
         {
             "name": "Leafa",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/183897.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Sword Art Online"
@@ -731,7 +731,7 @@
         {
             "name": "Yui",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/264143.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Sword Art Online"
@@ -739,7 +739,7 @@
         {
             "name": "Alice",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/366104.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Sword Art Online"
@@ -747,15 +747,15 @@
         {
             "name": "Eugeo",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/446769.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Sword Art Online"
         },
         {
-            "name": "Shino",
+            "name": "Asada Shino",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/228865.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Sword Art Online"
@@ -763,7 +763,7 @@
         {
             "name": "Asuna",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/440652.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Sword Art Online"
@@ -771,7 +771,7 @@
         {
             "name": "Kirito",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/410138.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Sword Art Online"
@@ -779,7 +779,7 @@
         {
             "name": "Garou",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/336672.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "One Punch Man"
@@ -787,7 +787,7 @@
         {
             "name": "Boros",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/297352.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "One Punch Man"
@@ -795,7 +795,7 @@
         {
             "name": "Genos",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/198561.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "One Punch Man"
@@ -803,7 +803,7 @@
         {
             "name": "Bang",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/199867.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "One Punch Man"
@@ -811,7 +811,7 @@
         {
             "name": "Tatsumaki",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/296110.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "One Punch Man"
@@ -819,7 +819,7 @@
         {
             "name": "Fubuki",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "One Punch Man"
@@ -827,7 +827,7 @@
         {
             "name": "SpeedO'Sound Sonic",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/194567.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "One Punch Man"
@@ -835,7 +835,7 @@
         {
             "name": "Mumen Rider",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/344059.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "One Punch Man"
@@ -843,7 +843,7 @@
         {
             "name": "Saitama",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/308822.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "One Punch Man"
@@ -851,7 +851,7 @@
         {
             "name": "Sukuna",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/392687.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Jujutsu Kaisen"
@@ -859,7 +859,7 @@
         {
             "name": "Junpei Yoshino",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/434571.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Jujutsu Kaisen"
@@ -867,7 +867,7 @@
         {
             "name": "Aoi Toudou",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/392694.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Jujutsu Kaisen"
@@ -875,7 +875,7 @@
         {
             "name": "Nobara",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/444565.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Jujutsu Kaisen"
@@ -883,7 +883,7 @@
         {
             "name": "Kento Nanami",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/426465.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Jujutsu Kaisen"
@@ -891,31 +891,31 @@
         {
             "name": "Toge Inumaki",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/428791.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Jujutsu Kaisen"
         },
         {
-            "name": "Gojo",
+            "name": "Gojo Satoru",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/392690.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Jujutsu Kaisen"
         },
         {
-            "name": "Megumi",
+            "name": "Megumi Fushiguro",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/437004.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Jujutsu Kaisen"
         },
         {
-            "name": "Yuji Itadori",
+            "name": "Itadori Yuuji",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/477163.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Jujutsu Kaisen"
@@ -923,7 +923,7 @@
         {
             "name": "Panda",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/423950.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Jujutsu Kaisen"
@@ -931,7 +931,7 @@
         {
             "name": "Feitan",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/220905.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "HxH"
@@ -945,7 +945,7 @@
             "anime": "HxH"
         },
         {
-            "name": "Netero",
+            "name": "Netero Isaac",
             "value": 3000,
             "url": "",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",

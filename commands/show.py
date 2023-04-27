@@ -27,4 +27,5 @@ async def show(ctx, id):
     elif not result:
         embed.set_footer(text=f"Owned by {ctx.author.name} ❌") 
     embed.set_thumbnail(url=card[4])
+    embed.set_image(url=card[3])
     await ctx.send(embed=embed)

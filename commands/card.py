@@ -42,7 +42,7 @@ def add_new_cards():
     except FileNotFoundError:
         print('cards.json file not found.')
 
-#add_new_cards()
+add_new_cards()
 
 async def add_card(ctx, card_id: int):
     with open('db/cards.json', 'r') as f:
