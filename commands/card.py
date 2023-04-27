@@ -1,6 +1,7 @@
 import discord
 import json
 import sqlite3
+import random
 
 conn = sqlite3.connect('db/cards.db')
 c = conn.cursor()
@@ -9,6 +10,7 @@ c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS owned_cards
              (user_id INTEGER,
               card_id INTEGER,
+              value INTEGER,
               FOREIGN KEY(card_id) REFERENCES cards(id))''')
 
 c.execute('''CREATE TABLE IF NOT EXISTS cards
@@ -16,20 +18,26 @@ c.execute('''CREATE TABLE IF NOT EXISTS cards
               name TEXT,
               value INTEGER,
               url TEXT,
-              rank TEXT)''')
+              rank TEXT,
+              rarity TEXT,
+              anime TEXT)''')
 
 # Load card data
 def add_new_cards():
     try:
         with open('db/cards.json', 'r') as f:
             data = json.load(f)
-        for card in data['cards']:
+            
+        cards = data['cards']
+        random.shuffle(cards)  # shuffle the cards list
+        
+        for card in cards:
             try:
                 card_id = card['id']
             except KeyError:
                 card_id = None
-            c.execute('INSERT INTO cards VALUES (?, ?, ?, ?, ?)',
-                    (card_id, card['name'], card['value'], card['url'], card['rank']))
+            c.execute('INSERT INTO cards VALUES (?, ?, ?, ?, ?, ?, ?)',
+                    (card_id, card['name'], card['value'], card['url'], card['rank'], card["rarity"], card['anime']))
         conn.commit()
     except FileNotFoundError:
         print('cards.json file not found.')
@@ -62,7 +70,7 @@ async def add_card(ctx, card_id: int):
 
 async def view_collection(ctx):
     user_id = ctx.author.id
-    c.execute('''SELECT cards.id, cards.name, cards.value, cards.url, cards.rank
+    c.execute('''SELECT cards.id, cards.name, cards.value, cards.url, cards.rank, cards.anime, cards.rarity
                  FROM owned_cards
                  INNER JOIN cards ON owned_cards.card_id = cards.id
                  WHERE owned_cards.user_id = ?''', (user_id,))
@@ -74,16 +82,15 @@ async def view_collection(ctx):
     # Create embed with user's card collection
     embed = discord.Embed(title=f"**{ctx.author.name}'s Card Collection**", color=discord.Color.blurple())
     current_index = 0
-
     def update_embed():
         nonlocal current_index
         embed.clear_fields()
-        results.sort(key=lambda x: x[0])
-        card_id, name, value, url, rank = results[current_index]
-        embed.add_field(name=name, value=f'**Power**: {value}', inline=False)
+        results.sort(key=lambda x: x[2], reverse=True)
+        card_id, name, value, url, rank, anime, rarity = results[current_index]
+        embed.add_field(name=name, value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
         embed.set_thumbnail(url=rank)
         embed.set_image(url=url)
-        embed.set_footer(text=f"Owned by {ctx.author.name} | Card {current_index+1}/{len(results)}")
+        embed.set_footer(text=f"Owned by {ctx.author.name} | Card {current_index+1}/{len(results)}\nCard id: {card_id}")
     
     update_embed()
     message = await ctx.send(embed=embed)

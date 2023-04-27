@@ -1,22 +1,1964 @@
 {
     "cards": [
         {
-            "name": "Luffy",
-            "value": 1000,
-            "url": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200429191518",
-            "rank": "https://cdn.discordapp.com/attachments/863806697901522955/1097570263870218371/ss.png"
+            "name": "Monkey D. Luffy",
+            "value": 5000,
+            "url": "https://myanimeguru.com/wp-content/uploads/2022/08/luffy-gear-5-724x1024.jpeg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "One Piece"
         },
         {
-            "name": "Naruto",
-            "value": 1100,
-            "url": "https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png/revision/latest/scale-to-width-down/1200?cb=20210223094656",
-            "rank": "https://cdn.discordapp.com/attachments/863806697901522955/1097570263870218371/ss.png"
+            "name": "Zoro",
+            "value": 5000,
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Roronoa_Zoro.jpg/220px-Roronoa_Zoro.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Nami",
+            "value": 4000,
+            "url": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nami_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20190720162446",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Usopp",
+            "value": 3000,
+            "url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Usopp_Anime_Pre_Timeskip_Infobox.png/revision/latest?cb=20221127232558",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Brook",
+            "value": 2000,
+            "url": "https://static.wikia.nocookie.net/animeandmangauniverse/images/4/41/Brook_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20140206175718",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Chopper",
+            "value": 3000,
+            "url": "https://static.wikia.nocookie.net/onepiece/images/a/af/Tony_Tony_Chopper_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20130428202154",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Franky",
+            "value": 2000,
+            "url": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Franky_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20130225034035",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Jinbe",
+            "value": 2000,
+            "url": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png/revision/latest?cb=20170521201349",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Sanji",
+            "value": 4000,
+            "url": "https://static.wikia.nocookie.net/p__/images/4/44/1000px-Sanji_Full_View.jpg/revision/latest?cb=20121027221159&path-prefix=protagonist",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Nico Robin",
+            "value": 3000,
+            "url": "https://static.wikia.nocookie.net/ultimatepopculture/images/3/3d/Robin_f.JPG/revision/latest?cb=20201206104745",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "One Piece"
+        },
+        {
+            "name": "Naruto Uzumaki",
+            "value": 5000,
+            "url": "https://static.wikia.nocookie.net/naruto-two-paths-rp/images/9/94/Six_Paths_Sage_Mode.png/revision/latest?cb=20160220030152",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Sasuke",
+            "value": 5000,
+            "url": "https://w0.peakpx.com/wallpaper/123/517/HD-wallpaper-sasuke-boruto-karma-kawaki-naruto.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Sakura",
+            "value": 4000,
+            "url": "https://i.pinimg.com/originals/3a/53/4e/3a534e80c63507f851992634762f5913.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Kakashi",
+            "value": 3000,
+            "url": "https://i.pinimg.com/originals/c2/2a/06/c22a06259e38eb277165d8df01dbbbc5.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Minato",
+            "value": 3000,
+            "url": "https://a-static.besthdwallpaper.com/minato-namikaze-using-his-resengan-naruto-wallpaper-1284x2778-109592_228.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Madara",
+            "value": 3000,
+            "url": "https://w0.peakpx.com/wallpaper/427/278/HD-wallpaper-madara-madara-uchiha-naruto-uchiha-thumbnail.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Obito",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Pain",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Itachi",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Naruto"
+        },
+        {
+            "name": "Shikamaru",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Naruto"
         },
         {
             "name": "Goku",
-            "value": 10000,
-            "url": "https://www.cartonionline.com/wordpress/wp-content/uploads/2023/02/goku.jpg",
-            "rank": "https://cdn.discordapp.com/attachments/863806697901522955/1097570263870218371/ss.png"
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Vegeta",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Piccolo",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Goten",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Krillin",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Broly",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Frieza",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Beerus",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Gohan",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Dragon Ball"
+        },
+        {
+            "name": "Rangiku Matsumoto",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Yoruichi Shihoin",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Byakuya Kuchiki",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Toshiro Hitsugaya",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Grimmjow Jaegerjaquez",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Orihime Inoue",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Aizen",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Kenpachi Zaraki",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Kisuke Urahara",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Ichigo Kurosaki",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Rukia Kuchiki",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Bleach"
+        },
+        {
+            "name": "Lelouch",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "C.C",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Kallen",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Suzaku",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Nunnaly",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Shirley",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Charles",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Euphemia",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Code Geass"
+        },
+        {
+            "name": "Dabi",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "MHA"
+        },
+        {
+            "name": "Toga Himiko",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "MHA"
+        },
+        {
+            "name": "Tsuyu",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "MHA"
+        },
+        {
+            "name": "Ochaco",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "MHA"
+        },
+        {
+            "name": "Shigaraki",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "MHA"
+        },
+        {
+            "name": "Deku",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "MHA"
+        },
+        {
+            "name": "Aizawa",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "MHA"
+        },
+        {
+            "name": "All Might",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "MHA"
+        },
+        {
+            "name": "Bakugo",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "MHA"
+        },
+        {
+            "name": "Todoroki",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "MHA"
+        },
+        {
+            "name": "Historia",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Jean",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Annie",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Sasha",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Hange",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Armin",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Erwin",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Eren",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Levi",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Mikasa",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Attack on Titan"
+        },
+        {
+            "name": "Edward Elric",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Roy Mustang",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Alphonse Elric",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Riza Hawkeye",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Maes Hughes",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Van Hohenheim",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Father",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Pride/Wrath",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Winry Rockbell",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Muzan",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Mitsuri",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Kanao",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Giyuu",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Shinobu",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Rengoku",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Nezuko",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Inosuke",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Zenitsu",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Demon Slayer"
+        },
+        {
+            "name": "Tanjiro",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Demon Slayer"  
+        },
+        {
+            "name": "Rika Shinozaki",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Klein",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Tiese",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Leafa",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Yui",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Alice",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Eugeo",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Shino",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Asuna",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Kirito",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Sword Art Online"
+        },
+        {
+            "name": "Garou",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Boros",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Genos",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Bang",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Tatsumaki",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Fubuki",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "SpeedO'Sound Sonic",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Mumen Rider",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Saitama",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "One Punch Man"
+        },
+        {
+            "name": "Sukuna",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Junpei Yoshino",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Aoi Toudou",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Nobara",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Kento Nanami",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Toge Inumaki",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Gojo",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Megumi",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Yuji Itadori",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Panda",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Feitan",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "HxH"
+        },
+        {
+            "name": "Neferpitou",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "HxH"
+        },
+        {
+            "name": "Netero",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "HxH"
+        },
+        {
+            "name": "Leorio",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "HxH"
+        },
+        {
+            "name": "Chrollo",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "HxH"
+        },
+        {
+            "name": "Meruem",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "HxH"
+        },
+        {
+            "name": "Kurapika",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "HxH"
+        },
+        {
+            "name": "Gon",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "HxH"
+        },
+        {
+            "name": "Hisoka",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "HxH"
+        },
+        {
+            "name": "Killua",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "HxH"
+        },
+        {
+            "name": "Hawk",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Gowther",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Diane",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Merlin",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Elizabeth",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Zeldris",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Meliodas",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Ban",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "King",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Escanor",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Seven deadly sins"
+        },
+        {
+            "name": "Power",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Makima",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Aki",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Denji",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Angel Devil",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Kobeni",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Pochita",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Beam",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Himeno",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Reze",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Chainsaw man"
+        },
+        {
+            "name": "Jean Pierre Polnareff",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Jotaro Kujo",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Joseph Joestar",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Dio",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Enrico Pucci",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Josuke Higashikata",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Giorno Giovanna",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Yoshikage Kira",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Bruno Bucciarati",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Kars",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "JoJo's"
+        },
+        {
+            "name": "Irina",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Assassination Classroom"
+        },
+        {
+            "name": "Kaede Kayano",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Assassination Classroom"
+        },
+        {
+            "name": "Korosensei",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Assassination Classroom"
+        },
+        {
+            "name": "Karma",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Assassination Classroom"
+        },
+        {
+            "name": "Nagisa",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Assassination Classroom"
+        },
+        {
+            "name": "Karasuma",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Assassination Classroom"
+        },
+        {
+            "name": "Sakata Gintoki",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Gintama"
+        },
+        {
+            "name": "Kagura",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Gintama"
+        },
+        {
+            "name": "Katsura Kotaro",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Gintama"
+        },
+        {
+            "name": "Hijikata Toshiro",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Gintama"
+        },
+        {
+            "name": "Okita Sougo",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Gintama"
+        },
+        {
+            "name": "Yato",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Noragami"
+        },
+        {
+            "name": "Yukine",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Noragami"
+        },
+        {
+            "name": "Hiyori",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Noragami"
+        },
+        {
+            "name": "Bishamonten",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Noragami"
+        },
+        {
+            "name": "Emilia",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Subaru",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Puck",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Ram",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Rem",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Beatrice",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Ferris",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Re:Zero"
+        },
+        {
+            "name": "Kageyama",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Haikyuu"
+        },
+        {
+            "name": "Hinata",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Haikyuu"
+        },
+        {
+            "name": "Oikawa",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Haikyuu"
+        },
+        {
+            "name": "Nishinoya",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Haikyuu"
+        },
+        {
+            "name": "Kenma",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Haikyuu"
+        },
+        {
+            "name": "Chrome",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Dr. Stone"
+        },
+        {
+            "name": "Yuzuriha",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Dr. Stone"
+        },
+        {
+            "name": "Taiju",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Dr. Stone"
+        },
+        {
+            "name": "Kohaku",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Dr. Stone"
+        },
+        {
+            "name": "Gen",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Dr. Stone"
+        },
+        {
+            "name": "Senku",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Dr. Stone"
+        },
+        {
+            "name": "Near",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Death Note"
+        },
+        {
+            "name": "Misa",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Death Note"
+        },
+        {
+            "name": "Ryuk",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Death Note"
+        },
+        {
+            "name": "L",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Death Note"
+        },
+        {
+            "name": "Light",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Death Note"
+        },
+        {
+            "name": "Asta",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Black Clover"
+        },
+        {
+            "name": "Yami",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Black Clover"
+        },
+        {
+            "name": "Noelle",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Black Clover"
+        },
+        {
+            "name": "Yuno",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Black Clover"
+        },
+        {
+            "name": "Nero",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Black Clover"
+        },
+        {
+            "name": "Happy",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Fairy Tail"
+        },
+        {
+            "name": "Lucy",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Fairy Tail"
+        },
+        {
+            "name": "Gray",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fairy Tail"
+        },
+        {
+            "name": "Erza",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Fairy Tail"
+        },
+        {
+            "name": "Natsu",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Fairy Tail"
+        },
+        {
+            "name": "Kawaki",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Boruto"
+        },
+        {
+            "name": "Boruto",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Boruto"
+        },
+        {
+            "name": "Sarada",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Boruto"
+        },
+        {
+            "name": "Mitsuki",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Boruto"
+        },
+        {
+            "name": "Sumire",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Boruto"
+        },
+        {
+            "name": "Mob",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Mob Psycho 100"
+        },
+        {
+            "name": "Teruki Hanazawa",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Mob Psycho 100"
+        },
+        {
+            "name": "Arataka Reigen",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Mob Psycho 100"
+        },
+        {
+            "name": "Dimpel",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Mob Psycho 100"
+        },
+        {
+            "name": "Ritsu",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Mob Psycho 100"
+        },
+        {
+            "name": "Isagi Yoichi",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Blue Lock"
+        },
+        {
+            "name": "Nagi",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Blue Lock"
+        },
+        {
+            "name": "Reo",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Blue Lock"
+        },
+        {
+            "name": "Rin",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Blue Lock"
+        },
+        {
+            "name": "Gagamaru",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Blue Lock"
+        },
+        {
+            "name": "Erina",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Food Wars"
+        },
+        {
+            "name": "Soma",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Food Wars"
+        },
+        {
+            "name": "Ikumi",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Food Wars"
+        },
+        {
+            "name": "Megumi Tadokoro",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Food Wars"
+        },
+        {
+            "name": "Takumi Aldini",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Food Wars"
+        },
+        {
+            "name": "Rimuru",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "That Time I Got Reincarnated as a Slime"
+        },
+        {
+            "name": "Shuna",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "That Time I Got Reincarnated as a Slime"
+        },
+        {
+            "name": "Gobta",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "That Time I Got Reincarnated as a Slime"
+        },
+        {
+            "name": "Benimaru",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "That Time I Got Reincarnated as a Slime"
+        },
+        {
+            "name": "Milim",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "That Time I Got Reincarnated as a Slime"
+        },
+        {
+            "name": "Kanna",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Miss Kobayashi's Dragon Maid"
+        },
+        {
+            "name": "Tohru",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Miss Kobayashi's Dragon Maid"
+        },
+        {
+            "name": "Ilulu",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Miss Kobayashi's Dragon Maid"
+        },
+        {
+            "name": "Kobayashi",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Miss Kobayashi's Dragon Maid"
+        },
+        {
+            "name": "Elma",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Miss Kobayashi's Dragon Maid"
+        },
+        {
+            "name": "Quetzalcoatl",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Miss Kobayashi's Dragon Maid"
+        },
+        {
+            "name": "Maki",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fire Force"
+        },
+        {
+            "name": "Tamaki",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fire Force"
+        },
+        {
+            "name": "Shinra",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Fire Force"
+        },
+        {
+            "name": "Arthur",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Fire Force"
+        },
+        {
+            "name": "Sho Kusakabe",
+            "value": 1000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Fire Force"
+        },
+        {
+            "name": "Megumin",
+            "value": 5000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
+            "anime": "Konosuba"
+        },
+        {
+            "name": "Kazuma",
+            "value": 4000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "Konosuba"
+        },
+        {
+            "name": "Yunyun",
+            "value": 2000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
+            "anime": "Konosuba"
+        },
+        {
+            "name": "Darkness",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Konosuba"
+        },
+        {
+            "name": "Aqua",
+            "value": 3000,
+            "url": "",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "Konosuba"
         }
     ]
 }

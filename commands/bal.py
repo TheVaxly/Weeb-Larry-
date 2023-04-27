@@ -23,5 +23,6 @@ async def balance(ctx):
     balance = get_balance(player.id)
 
     embed = discord.Embed(title="Balance", color=discord.Color.gold())
+    embed.set_thumbnail(url="https://static.wikia.nocookie.net/shinobi-life-2-reel/images/0/08/Ryo.png/revision/latest?cb=20220216114843")
     embed.add_field(name=f"{player.name}", value=f"{balance} chips", inline=False)
     await ctx.send(embed=embed)

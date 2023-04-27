@@ -38,29 +38,20 @@ async def add_card(ctx, card_id: int, value: int):
               (user_id, card_id, value))
     conn.commit()
     
-async def pull(ctx, num_pulls):
+async def pull(ctx):
     user_id = ctx.author.id
     cost_per_pull = 1000
-    num_pulls = int(num_pulls)
+    bals = get_balance(user_id)
+    num_pulls = bals // cost_per_pull
+    print(num_pulls)
     total_cost = cost_per_pull * num_pulls
 
-    if num_pulls <= 0:
-        await ctx.send(f"**{ctx.author.name}**, you can't do {num_pulls} pulls!")
-        return
-
-    if num_pulls > 10:
-        await ctx.send(f"**{ctx.author.name}**, you can only do 10 pulls at a time. Or use !pullall (!pa)")
-        return
-
-    # Check if user has enough balance
-    bal = get_balance(user_id)
-
-    if bal < total_cost:
-        await ctx.send(f"{ctx.author.mention}, you don't have enough chips to perform {num_pulls} pull! Least you can do is {bal // cost_per_pull} pull.")
+    if bals < total_cost or num_pulls == 0:
+        await ctx.send(f"{ctx.author.mention}, you don't have enough chips to perform {num_pulls} pull! Least you can do is {bals // cost_per_pull} pull.")
         return
 
     # Subtract the total cost from user's balance
-    new_balance = bal - total_cost
+    new_balance = bals - total_cost
     c_bal.execute("UPDATE balances SET balance = ? WHERE user_id = ?", (new_balance, user_id))
     conn_bal.commit()
 
