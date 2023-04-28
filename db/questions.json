@@ -1,257 +1,265 @@
 {
-    "questions": [
-      {
-        "question": "Who is the main protagonist of the anime series Naruto?",
-        "answers": [
-          "Naruto Uzumaki",
-          "Sasuke Uchiha",
-          "Sakura Haruno"
-        ],
-        "correct": "Naruto Uzumaki"
-      },
-      {
-        "question": "What is the name of the protagonist in Attack on Titan?",
-        "answers": [
-          "Eren Yeager",
-          "Levi Ackerman",
-          "Mikasa Ackerman"
-        ],
-        "correct": "Eren Yeager"
-      },
-      {
-        "question": "What is the name of the magical world where the anime Little Witch Academia is set?",
-        "answers": [
-          "Luna Nova",
-          "Hogwarts",
-          "Mahoutokoro"
-        ],
-        "correct": "Luna Nova"
-      },
-      {
-        "question": "What is the name of the demon who possesses the protagonist in the anime series Demon Slayer?",
-        "answers": [
-          "Tanjiro Kamado",
-          "Nezuko Kamado",
-          "Muzan Kibutsuji"
-        ],
-        "correct": "Muzan Kibutsuji"
-      },
-      {
-        "question": "What is the name of the main character in the anime series One Piece?",
-        "answers": [
-          "Monkey D. Luffy",
-          "Roronoa Zoro",
-          "Nami"
-        ],
-        "correct": "Monkey D. Luffy"
-      },
-      {
-        "question": "What is the name of the protagonist in Death Note?",
-        "answers": [
-          "Light Yagami",
-          "L Lawliet",
-          "Misa Amane"
-        ],
-        "correct": "Light Yagami"
-      },
-      {
-        "question": "What is the name of the main character in Fullmetal Alchemist?",
-        "answers": [
-          "Edward Elric",
-          "Alphonse Elric",
-          "Roy Mustang"
-        ],
-        "correct": "Edward Elric"
-      },
-      {
-        "question": "What is the name of the main character in Cowboy Bebop?",
-        "answers": [
-          "Spike Spiegel",
-          "Jet Black",
-          "Faye Valentine"
-        ],
-        "correct": "Spike Spiegel"
-      },
-      {
-        "question": "What is the name of the magical item that gives Usagi Tsukino her powers in Sailor Moon?",
-        "answers": [
-          "Moon Crystal",
-          "Star Seed",
-          "Sailor Crystal"
-        ],
-        "correct": "Moon Crystal"
-      },
-      {
-        "question": "What is the name of the main character in the anime series Sword Art Online?",
-        "answers": [
-          "Kirito",
-          "Asuna",
-          "Sinon"
-        ],
-        "correct": "Kirito"
-      },
-      {
-        "question": "What is the name of the pirate crew led by Monkey D. Luffy in One Piece?",
-        "answers": [
-          "Straw Hat Pirates",
-          "Blackbeard Pirates",
-          "Whitebeard Pirates"
-        ],
-        "correct": "Straw Hat Pirates"
-      },
-      {
-        "question": "What is the name of the high school attended by the main characters in the anime series K-On!?",
-        "answers": [
-          "Sakuragaoka High School",
-          "Hokago Tea Time High School",
-          "Mio and Ritsu's High School"
-        ],
-        "correct": "Sakuragaoka High School"
-      },
-      {
-        "question": "What is the name of the main character in the anime series My Hero Academia?",
-        "answers": [
-          "Izuku Midoriya",
-          "Katsuki Bakugo",
-          "Shoto Todoroki"
-        ],
-        "correct": "Izuku Midoriya"
-      },
-      {
-        "question": "What is the name of the organization that employs the main character in the anime series Psycho-Pass?",
-        "answers": [
-          "Public Safety Bureau",
-          "Criminal Investigation Division",
-          "Judiciary Police"
-        ],
-        "correct": "Public Safety Bureau"
-      },
-      {
-        "question": "What is the name of the giant humanoid creatures that the characters in Attack on Titan fight against?",
-        "answers": [
-          "Titans",
-          "Giants",
-          "Colossi"
-        ],
-        "correct": "Titans"
-      },
-      {
-        "question": "What is the name of the main character in the anime series Dragon Ball Z?",
-        "answers": [
-            "Goku",
-            "Vegeta",
-            "Gohan"
-        ],
-        "correct": "Goku"
-        },
-        {
-        "question": "What is the name of the magical girl in the anime series Cardcaptor Sakura?",
-        "answers": [
-            "Sakura Kinomoto",
-            "Tomoyo Daidouji",
-            "Meiling Li"
-        ],
-        "correct": "Sakura Kinomoto"
-        },
-        {
-        "question": "What is the name of the protagonist in the anime series One-Punch Man?",
-        "answers": [
-            "Saitama",
-            "Genos",
-            "Mumen Rider"
-        ],
-        "correct": "Saitama"
-        },
-        {
-        "question": "What is the name of the school attended by the main characters in the anime series Assassination Classroom?",
-        "answers": [
-            "Kunugigaoka Junior High School",
-            "Yokai Academy",
-            "Otonokizaka High School"
-        ],
-        "correct": "Kunugigaoka Junior High School"
-        },
-        {
-        "question": "What is the name of the powerful sword wielded by the main character in the anime series Bleach?",
-        "answers": [
-            "Zangetsu",
-            "Tensa Zangetsu",
-            "Bankai"
-        ],
-        "correct": "Zangetsu"
-        },
-        {
-        "question": "What is the name of the main character in the anime series Black Clover?",
-        "answers": [
-            "Asta",
-            "Yuno",
-            "Noelle Silva"
-        ],
-        "correct": "Asta"
-        },
-        {
-        "question": "What is the name of the organization that employs the main characters in the anime series Ghost in the Shell?",
-        "answers": [
-            "Public Security Section 9",
-            "Section 6",
-            "Ministry of Internal Affairs"
-        ],
-        "correct": "Public Security Section 9"
-        },
-        {
-        "question": "What is the name of the magical girl group in the anime series Puella Magi Madoka Magica?",
-        "answers": [
-            "Magical Girls of Mitakihara",
-            "Magical Five",
-            "Puella Magi"
-        ],
-        "correct": "Puella Magi"       
-      },
-      {
-        "question": "What is the name of the high school attended by the main characters in the anime series My Hero Academia?",
-        "answers": [
-          "UA High School",
-          "Yuei High School",
-          "Shiketsu High School"
-        ],
-        "correct": "UA High School"
-      },
-      {
-        "question": "What is the name of the main character in the anime series Hunter x Hunter?",
-        "answers": [
-          "Gon Freecss",
-          "Killua Zoldyck",
-          "Hisoka Morow"
-        ],
-        "correct": "Gon Freecss"
-      },
-      {
-        "question": "What is the name of the main character in the anime series JoJo's Bizarre Adventure?",
-        "answers": [
-          "Jotaro Kujo",
-          "Joseph Joestar",
-          "Jonathan Joestar"
-        ],
-        "correct": "Jonathan Joestar"
-      },
-      {
-        "question": "What is the name of the organization that employs the main characters in the anime series Attack on Titan?",
-        "answers": [
-          "Survey Corps",
-          "Military Police Brigade",
-          "Garrison Regiment"
-        ],
-        "correct": "Survey Corps"
-      },
-      {
-        "question": "What is the name of the organization that employs the main characters in the anime series Naruto?",
-        "answers": [
-          "Konohagakure",
-          "Akatsuki",
-          "Orochimaru"
-        ],
-        "correct": "Konohagakure"
-      }
-    ]
+  "questions": [
+    {
+      "question": "Who is the main protagonist of the anime series Naruto?",
+      "answers": [
+        "Naruto Uzumaki",
+        "Sasuke Uchiha",
+        "Sakura Haruno"
+      ],
+      "correct": "Naruto Uzumaki"
+    },
+    {
+      "question": "What is the name of the protagonist in Attack on Titan?",
+      "answers": [
+        "Eren Yeager",
+        "Levi Ackerman",
+        "Mikasa Ackerman"
+      ],
+      "correct": "Eren Yeager"
+    },
+    {
+      "question": "What is the name of the magical world where the anime Little Witch Academia is set?",
+      "answers": [
+        "Luna Nova",
+        "Hogwarts",
+        "Mahoutokoro"
+      ],
+      "correct": "Luna Nova"
+    },
+    {
+      "question": "What is the name of the demon who possesses the protagonist in the anime series Demon Slayer?",
+      "answers": [
+        "Tanjiro Kamado",
+        "Nezuko Kamado",
+        "Muzan Kibutsuji"
+      ],
+      "correct": "Muzan Kibutsuji"
+    },
+    {
+      "question": "What is the name of the main character in the anime series One Piece?",
+      "answers": [
+        "Monkey D. Luffy",
+        "Roronoa Zoro",
+        "Nami"
+      ],
+      "correct": "Monkey D. Luffy"
+    },
+    {
+      "question": "What is the name of the protagonist in Death Note?",
+      "answers": [
+        "Light Yagami",
+        "L Lawliet",
+        "Misa Amane"
+      ],
+      "correct": "Light Yagami"
+    },
+    {
+      "question": "What is the name of the main character in Fullmetal Alchemist?",
+      "answers": [
+        "Edward Elric",
+        "Alphonse Elric",
+        "Roy Mustang"
+      ],
+      "correct": "Edward Elric"
+    },
+    {
+      "question": "What is the name of the main character in Cowboy Bebop?",
+      "answers": [
+        "Spike Spiegel",
+        "Jet Black",
+        "Faye Valentine"
+      ],
+      "correct": "Spike Spiegel"
+    },
+    {
+      "question": "What is the name of the magical item that gives Usagi Tsukino her powers in Sailor Moon?",
+      "answers": [
+        "Moon Crystal",
+        "Star Seed",
+        "Sailor Crystal"
+      ],
+      "correct": "Moon Crystal"
+    },
+    {
+      "question": "What is the name of the main character in the anime series Sword Art Online?",
+      "answers": [
+        "Kirito",
+        "Asuna",
+        "Sinon"
+      ],
+      "correct": "Kirito"
+    },
+    {
+      "question": "What is the name of the pirate crew led by Monkey D. Luffy in One Piece?",
+      "answers": [
+        "Straw Hat Pirates",
+        "Blackbeard Pirates",
+        "Whitebeard Pirates"
+      ],
+      "correct": "Straw Hat Pirates"
+    },
+    {
+      "question": "What is the name of the high school attended by the main characters in the anime series K-On!?",
+      "answers": [
+        "Sakuragaoka High School",
+        "Hokago Tea Time High School",
+        "Mio and Ritsu's High School"
+      ],
+      "correct": "Sakuragaoka High School"
+    },
+    {
+      "question": "What is the name of the main character in the anime series My Hero Academia?",
+      "answers": [
+        "Izuku Midoriya",
+        "Katsuki Bakugo",
+        "Shoto Todoroki"
+      ],
+      "correct": "Izuku Midoriya"
+    },
+    {
+      "question": "What is the name of the organization that employs the main character in the anime series Psycho-Pass?",
+      "answers": [
+        "Public Safety Bureau",
+        "Criminal Investigation Division",
+        "Judiciary Police"
+      ],
+      "correct": "Public Safety Bureau"
+    },
+    {
+      "question": "What is the name of the giant humanoid creatures that the characters in Attack on Titan fight against?",
+      "answers": [
+        "Titans",
+        "Giants",
+        "Colossals"
+      ],
+      "correct": "Titans"
+    },
+    {
+      "question": "What is the name of the main character in the anime series Dragon Ball Z?",
+      "answers": [
+        "Goku",
+        "Vegeta",
+        "Gohan"
+      ],
+      "correct": "Goku"
+    },
+    {
+      "question": "What is the name of the magical girl in the anime series Cardcaptor Sakura?",
+      "answers": [
+        "Sakura Kinomoto",
+        "Tomoyo Daidouji",
+        "Meiling Li"
+      ],
+      "correct": "Sakura Kinomoto"
+    },
+    {
+      "question": "What is the name of the protagonist in the anime series One-Punch Man?",
+      "answers": [
+        "Saitama",
+        "Genos",
+        "Mumen Rider"
+      ],
+      "correct": "Saitama"
+    },
+    {
+      "question": "What is the name of the school attended by the main characters in the anime series Assassination Classroom?",
+      "answers": [
+        "Kunugigaoka Junior High School",
+        "Yokai Academy",
+        "Otonokizaka High School"
+      ],
+      "correct": "Kunugigaoka Junior High School"
+    },
+    {
+      "question": "What is the name of the powerful sword wielded by the main character in the anime series Bleach?",
+      "answers": [
+        "Zangetsu",
+        "Tensa Zangetsu",
+        "Bankai"
+      ],
+      "correct": "Zangetsu"
+    },
+    {
+      "question": "What is the name of the main character in the anime series Black Clover?",
+      "answers": [
+        "Asta",
+        "Yuno",
+        "Noelle Silva"
+      ],
+      "correct": "Asta"
+    },
+    {
+      "question": "What is the name of the organization that employs the main characters in the anime series Ghost in the Shell?",
+      "answers": [
+        "Public Security Section 9",
+        "Section 6",
+        "Ministry of Internal Affairs"
+      ],
+      "correct": "Public Security Section 9"
+    },
+    {
+      "question": "What is the name of the magical girl group in the anime series Puella Magi Madoka Magica?",
+      "answers": [
+        "Magical Girls of Mitakihara",
+        "Magical Five",
+        "Puella Magi"
+      ],
+      "correct": "Puella Magi"
+    },
+    {
+      "question": "What is the name of the high school attended by the main characters in the anime series My Hero Academia?",
+      "answers": [
+        "UA High School",
+        "Yuei High School",
+        "Shiketsu High School"
+      ],
+      "correct": "UA High School"
+    },
+    {
+      "question": "What is the name of the main character in the anime series Hunter x Hunter?",
+      "answers": [
+        "Gon Freecss",
+        "Killua Zoldyck",
+        "Hisoka Morow"
+      ],
+      "correct": "Gon Freecss"
+    },
+    {
+      "question": "What is the name of the main character in the anime series JoJo's Bizarre Adventure?",
+      "answers": [
+        "Jotaro Kujo",
+        "Joseph Joestar",
+        "Jonathan Joestar"
+      ],
+      "correct": "Jonathan Joestar"
+    },
+    {
+      "question": "What is the name of the organization that employs the main characters in the anime series Attack on Titan?",
+      "answers": [
+        "Survey Corps",
+        "Military Police Brigade",
+        "Garrison Regiment"
+      ],
+      "correct": "Survey Corps"
+    },
+    {
+      "question": "What is the name village that Naruto lives in?",
+      "answers": [
+        "Konohagakure",
+        "Sunagakure",
+        "Amegakure"
+      ],
+      "correct": "Konohagakure"
+    },
+    {
+      "question": "Who is the the true Black Swordsman?",
+      "answers": [
+        "Guts",
+        "Kirito",
+        "Asta"
+      ],
+      "correct": "Guts"
+    }
+  ]
 }
-    

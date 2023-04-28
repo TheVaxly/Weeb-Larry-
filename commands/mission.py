@@ -45,8 +45,8 @@ async def mission(message, client):
     for i, answer in enumerate(answers):
         question_text += f"{i+1}. {answer}\n"
     embed = discord.Embed(title=f'{question["question"]}', description=question_text, color=0x00ff00)
-    embed.set_footer(text=f"**You have 20 seconds to answer the question.**")
-    embed.set_thumbnail(url="https://o.remove.bg/downloads/5f61873e-ce95-4e18-8a71-97202a631a29/image-removebg-preview.png")
+    embed.set_footer(text=f"You have 20 seconds to answer the question.", icon_url=message.author.avatar)
+    embed.set_thumbnail(url="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png")
     msg = await message.channel.send(embed=embed)
 
     # Add reaction emojis
@@ -62,7 +62,7 @@ async def mission(message, client):
         reaction, user = await client.wait_for('reaction_add', timeout=20, check=check)
     except asyncio.TimeoutError:
         response_text = "Time is up! ⌛️"
-        embed.set_footer(text=response_text)
+        embed.set_footer(text=response_text, icon_url=message.author.avatar)
         await msg.edit(embed=embed)
         return
 
@@ -71,12 +71,12 @@ async def mission(message, client):
 
     # Check the answer
     if answers[int(str(reaction.emoji)[0])-1] == question['correct']:
-        response_text = f"Correct answer ✅! You have earned {reward} chips."
+        response_text = f"Correct answer ✅! You have earned {reward} Ryō."
         conn_bal.execute("UPDATE balances SET balance = ? WHERE user_id = ?", (reward+get_balance(message.author.id), message.author.id))
         conn_bal.commit()
     else:
         response_text = f"Wrong answer ❌!"
 
     # Add the response as a footer to the original message
-    embed.set_footer(text=response_text)
+    embed.set_footer(text=response_text, icon_url=message.author.avatar)
     await msg.edit(embed=embed)

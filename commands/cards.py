@@ -8,6 +8,14 @@ with open('db/cards.json', 'r') as f:
 conn = sqlite3.connect('db/cards.db')
 c = conn.cursor()
 
+def get_card(id):
+    cursor = conn.execute("SELECT * FROM cards WHERE id=?", (id,))
+    row = cursor.fetchone()
+    if row is None:
+        return None
+    else:
+        return row
+    
 nr = 1
     
 async def carddd(ctx):
@@ -26,16 +34,20 @@ async def carddd(ctx):
 
     def update_embed():
         nonlocal current_index, name, value, url, rank, rarity, anime
-        card_id = current_index + 1
+        c.execute('''SELECT id FROM cards
+                    WHERE name = ?''',
+                (name,))
+        result = c.fetchone()
+        card_id = result[0]
         c.execute('''SELECT * FROM owned_cards
                  WHERE user_id = ? AND card_id = ? AND value = ?''',
               (user_id, card_id, value))
         result = c.fetchone()
         embed.clear_fields()
         if result:
-            embed.set_footer(text=f"Owned by {ctx.author.name} ✅ | Card {current_index+1}/{len(data['cards'])}")
+            embed.set_footer(text=f"Owned by {ctx.author.name} ✅\nCard {current_index+1}/{len(data['cards'])} | Card ID: {card_id}")
         elif not result:
-            embed.set_footer(text=f"Owned by {ctx.author.name} ❌ | Card {current_index+1}/{len(data['cards'])}")
+            embed.set_footer(text=f"Owned by {ctx.author.name} ❌\nCard {current_index+1}/{len(data['cards'])} | Card ID: {card_id}")
         embed.add_field(name=name, value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
         embed.set_thumbnail(url=rank)
         embed.set_image(url=url)

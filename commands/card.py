@@ -38,11 +38,12 @@ def add_new_cards():
                 card_id = None
             c.execute('INSERT INTO cards VALUES (?, ?, ?, ?, ?, ?, ?)',
                     (card_id, card['name'], card['value'], card['url'], card['rank'], card["rarity"], card['anime']))
+                     
         conn.commit()
     except FileNotFoundError:
         print('cards.json file not found.')
 
-add_new_cards()
+#add_new_cards()
 
 async def add_card(ctx, card_id: int):
     with open('db/cards.json', 'r') as f:
@@ -51,20 +52,23 @@ async def add_card(ctx, card_id: int):
     if card_id < 1 or card_id > len(data['cards']):
         await ctx.send('Invalid card ID.')
         return
+    
+    c.execute('SELECT value FROM cards WHERE id = ?', (card_id,))
+    value = c.fetchone()[0]
 
     # Check if card is already owned by the user
     user_id = ctx.author.id
     c.execute('''SELECT * FROM owned_cards
-                 WHERE user_id = ? AND card_id = ?''',
-              (user_id, card_id))
+                 WHERE user_id = ? AND card_id = ? AND value = ?''',
+              (user_id, card_id, value))
     result = c.fetchone()
     if result:
         await ctx.send('You already own this card.')
         return
 
     # Add card to user's collection
-    c.execute('INSERT INTO owned_cards VALUES (?, ?)',
-              (user_id, card_id))
+    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?)',
+              (user_id, card_id, value))
     conn.commit()
     await ctx.send('Card added to your collection.')
 
@@ -87,10 +91,11 @@ async def view_collection(ctx):
         embed.clear_fields()
         results.sort(key=lambda x: x[2], reverse=True)
         card_id, name, value, url, rank, anime, rarity = results[current_index]
-        embed.add_field(name=name, value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
+        embed.title = f"**{name}**"
+        embed.add_field(name="", value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
         embed.set_thumbnail(url=rank)
         embed.set_image(url=url)
-        embed.set_footer(text=f"Owned by {ctx.author.name} | Card {current_index+1}/{len(results)}\nCard id: {card_id}")
+        embed.set_footer(text=f"{ctx.author.name}'s cards--{current_index+1}/{len(results)} | Card id: {card_id}", icon_url=ctx.author.avatar)
     
     update_embed()
     message = await ctx.send(embed=embed)

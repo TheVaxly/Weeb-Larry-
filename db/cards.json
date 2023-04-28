@@ -91,7 +91,7 @@
         {
             "name": "Sasuke",
             "value": 5000,
-            "url": "https://w0.peakpx.com/wallpaper/123/517/HD-wallpaper-sasuke-boruto-karma-kawaki-naruto.jpg",
+            "url": "https://cdn.myanimelist.net/images/characters/13/346521.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Naruto"
@@ -242,9 +242,9 @@
         },
         {
             "name": "Yoruichi",
-            "value": 1000,
+            "value": 4000,
             "url": "https://cdn.myanimelist.net/images/characters/14/33266.jpg",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Bleach"
         },
@@ -939,7 +939,7 @@
         {
             "name": "Neferpitou",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/309296.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "HxH"
@@ -947,7 +947,7 @@
         {
             "name": "Netero Isaac",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/244127.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "HxH"
@@ -955,7 +955,7 @@
         {
             "name": "Leorio",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/274992.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "HxH"
@@ -963,63 +963,63 @@
         {
             "name": "Chrollo",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/306949.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "HxH"
         },
         {
             "name": "Meruem",
+            "value": 4000,
+            "url": "https://cdn.myanimelist.net/images/characters/15/409416.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
+            "rarity": "S",
+            "anime": "HxH"
+        },
+        {
+            "name": "Kurapika",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/328227.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "HxH"
         },
         {
-            "name": "Kurapika",
-            "value": 3000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
-            "rarity": "A",
-            "anime": "HxH"
-        },
-        {
-            "name": "Gon",
+            "name": "Gon Freecss",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/342825.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "HxH"
         },
         {
             "name": "Hisoka",
+            "value": 3000,
+            "url": "https://cdn.myanimelist.net/images/characters/16/306063.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
+            "anime": "HxH"
+        },
+        {
+            "name": "Killua",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/300670.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "HxH"
         },
         {
-            "name": "Killua",
-            "value": 5000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
-            "rarity": "SS",
-            "anime": "HxH"
-        },
-        {
             "name": "Hawk",
-            "value": 3000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
-            "rarity": "A",
+            "value": 2000,
+            "url": "https://cdn.myanimelist.net/images/characters/3/390545.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
             "anime": "Seven deadly sins"
         },
         {
             "name": "Gowther",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/253865.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Seven deadly sins"
@@ -1027,7 +1027,7 @@
         {
             "name": "Diane",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/264509.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Seven deadly sins"
@@ -1035,7 +1035,7 @@
         {
             "name": "Merlin",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/277480.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Seven deadly sins"
@@ -1043,7 +1043,7 @@
         {
             "name": "Elizabeth",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/282800.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Seven deadly sins"
@@ -1051,7 +1051,7 @@
         {
             "name": "Zeldris",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/462635.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Seven deadly sins"
@@ -1059,7 +1059,7 @@
         {
             "name": "Meliodas",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/267979.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Seven deadly sins"
@@ -1067,7 +1067,7 @@
         {
             "name": "Ban",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/264543.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Seven deadly sins"
@@ -1075,23 +1075,23 @@
         {
             "name": "King",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/277006.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Seven deadly sins"
         },
         {
             "name": "Escanor",
-            "value": 2000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
-            "rarity": "B",
+            "value": 3000,
+            "url": "https://cdn.myanimelist.net/images/characters/10/366980.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
             "anime": "Seven deadly sins"
         },
         {
             "name": "Power",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/386386.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Chainsaw man"
@@ -1099,7 +1099,7 @@
         {
             "name": "Makima",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/419643.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Chainsaw man"
@@ -1107,7 +1107,7 @@
         {
             "name": "Aki",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/395003.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Chainsaw man"
@@ -1115,7 +1115,7 @@
         {
             "name": "Denji",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/437439.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Chainsaw man"
@@ -1123,7 +1123,7 @@
         {
             "name": "Angel Devil",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/391648.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Chainsaw man"
@@ -1131,7 +1131,7 @@
         {
             "name": "Kobeni",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/467961.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Chainsaw man"
@@ -1139,23 +1139,23 @@
         {
             "name": "Pochita",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/391655.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Chainsaw man"
         },
         {
             "name": "Beam",
-            "value": 1000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
-            "rarity": "C",
+            "value": 3000,
+            "url": "https://cdn.myanimelist.net/images/characters/9/467960.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
             "anime": "Chainsaw man"
         },
         {
             "name": "Himeno",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/386392.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Chainsaw man"
@@ -1163,7 +1163,7 @@
         {
             "name": "Reze",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/412779.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Chainsaw man"
@@ -1171,7 +1171,7 @@
         {
             "name": "Jean Pierre Polnareff",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/245195.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "JoJo's"
@@ -1179,7 +1179,7 @@
         {
             "name": "Jotaro Kujo",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/312302.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "JoJo's"
@@ -1187,15 +1187,15 @@
         {
             "name": "Joseph Joestar",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/365766.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "JoJo's"
         },
         {
-            "name": "Dio",
+            "name": "Dio Brando",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/328191.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "JoJo's"
@@ -1203,7 +1203,7 @@
         {
             "name": "Enrico Pucci",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/390366.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "JoJo's"
@@ -1211,7 +1211,7 @@
         {
             "name": "Josuke Higashikata",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/311634.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "JoJo's"
@@ -1219,7 +1219,7 @@
         {
             "name": "Giorno Giovanna",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/334727.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "JoJo's"
@@ -1227,7 +1227,7 @@
         {
             "name": "Yoshikage Kira",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/241133.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "JoJo's"
@@ -1235,7 +1235,7 @@
         {
             "name": "Bruno Bucciarati",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/319829.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "JoJo's"
@@ -1243,7 +1243,7 @@
         {
             "name": "Kars",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/252857.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "JoJo's"
@@ -1251,7 +1251,7 @@
         {
             "name": "Irina",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/275956.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Assassination Classroom"
@@ -1259,7 +1259,7 @@
         {
             "name": "Kaede Kayano",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/276605.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Assassination Classroom"
@@ -1267,7 +1267,7 @@
         {
             "name": "Korosensei",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/277325.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Assassination Classroom"
@@ -1275,7 +1275,7 @@
         {
             "name": "Karma",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/274916.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Assassination Classroom"
@@ -1283,7 +1283,7 @@
         {
             "name": "Nagisa",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/219931.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Assassination Classroom"
@@ -1291,7 +1291,7 @@
         {
             "name": "Karasuma",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/274437.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Assassination Classroom"
@@ -1299,7 +1299,7 @@
         {
             "name": "Sakata Gintoki",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/324586.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Gintama"
@@ -1307,7 +1307,7 @@
         {
             "name": "Kagura",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/303227.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Gintama"
@@ -1315,7 +1315,7 @@
         {
             "name": "Katsura Kotaro",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/30271.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Gintama"
@@ -1323,7 +1323,7 @@
         {
             "name": "Hijikata Toshiro",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/30301.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Gintama"
@@ -1331,7 +1331,7 @@
         {
             "name": "Okita Sougo",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/108520.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Gintama"
@@ -1339,7 +1339,7 @@
         {
             "name": "Yato",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/328158.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Noragami"
@@ -1347,7 +1347,7 @@
         {
             "name": "Yukine",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/233653.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Noragami"
@@ -1355,7 +1355,7 @@
         {
             "name": "Hiyori",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/295009.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Noragami"
@@ -1363,7 +1363,7 @@
         {
             "name": "Bishamonten",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/301215.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Noragami"
@@ -1371,7 +1371,7 @@
         {
             "name": "Emilia",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/306389.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Re:Zero"
@@ -1379,7 +1379,7 @@
         {
             "name": "Subaru",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/438175.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Re:Zero"
@@ -1387,7 +1387,7 @@
         {
             "name": "Puck",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/300489.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Re:Zero"
@@ -1395,7 +1395,7 @@
         {
             "name": "Ram",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/411047.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Re:Zero"
@@ -1403,7 +1403,7 @@
         {
             "name": "Rem",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/311327.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Re:Zero"
@@ -1411,7 +1411,7 @@
         {
             "name": "Beatrice",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/306938.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Re:Zero"
@@ -1419,23 +1419,23 @@
         {
             "name": "Ferris",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/478293.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Re:Zero"
         },
         {
-            "name": "Kageyama",
+            "name": "Tobio Kageyama",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/421430.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Haikyuu"
         },
         {
-            "name": "Hinata",
+            "name": "Shouyou Hinata",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/311914.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Haikyuu"
@@ -1443,7 +1443,7 @@
         {
             "name": "Oikawa",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/244485.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Haikyuu"
@@ -1451,7 +1451,7 @@
         {
             "name": "Nishinoya",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/259913.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Haikyuu"
@@ -1459,7 +1459,7 @@
         {
             "name": "Kenma",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/296293.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Haikyuu"
@@ -1467,7 +1467,7 @@
         {
             "name": "Chrome",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/388352.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Dr. Stone"
@@ -1475,15 +1475,15 @@
         {
             "name": "Yuzuriha",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/389706.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Dr. Stone"
         },
         {
-            "name": "Taiju",
+            "name": "Taiju Ooki",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/385058.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Dr. Stone"
@@ -1491,31 +1491,31 @@
         {
             "name": "Kohaku",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/338967.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Dr. Stone"
         },
         {
-            "name": "Gen",
+            "name": "Gen Asagiri",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/398561.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Dr. Stone"
         },
         {
-            "name": "Senku",
+            "name": "Senku Ishigami",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/425750.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Dr. Stone"
         },
         {
-            "name": "Near",
+            "name": "Mello",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/83183.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Death Note"
@@ -1523,7 +1523,7 @@
         {
             "name": "Misa",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/30971.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Death Note"
@@ -1531,23 +1531,23 @@
         {
             "name": "Ryuk",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/59125.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Death Note"
         },
         {
-            "name": "L",
+            "name": "L Lawliet",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/59139.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Death Note"
         },
         {
-            "name": "Light",
+            "name": "Light Yagami",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/26348.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Death Note"
@@ -1555,23 +1555,23 @@
         {
             "name": "Asta",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/312838.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Black Clover"
         },
         {
-            "name": "Yami",
+            "name": "Yami Sukehiro",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/473498.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Black Clover"
         },
         {
-            "name": "Noelle",
+            "name": "Noelle Silva",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/318763.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Black Clover"
@@ -1579,7 +1579,7 @@
         {
             "name": "Yuno",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/318765.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Black Clover"
@@ -1587,7 +1587,7 @@
         {
             "name": "Nero",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/477401.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Black Clover"
@@ -1595,7 +1595,7 @@
         {
             "name": "Happy",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/473195.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Fairy Tail"
@@ -1603,7 +1603,7 @@
         {
             "name": "Lucy",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/73220.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Fairy Tail"
@@ -1611,7 +1611,7 @@
         {
             "name": "Gray",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/55469.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fairy Tail"
@@ -1619,7 +1619,7 @@
         {
             "name": "Erza",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/473185.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Fairy Tail"
@@ -1627,7 +1627,7 @@
         {
             "name": "Natsu",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/3/473193.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Fairy Tail"
@@ -1635,7 +1635,7 @@
         {
             "name": "Kawaki",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/8/368951.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Boruto"
@@ -1643,7 +1643,7 @@
         {
             "name": "Boruto",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/462864.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Boruto"
@@ -1651,7 +1651,7 @@
         {
             "name": "Sarada",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/314227.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Boruto"
@@ -1659,7 +1659,7 @@
         {
             "name": "Mitsuki",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/297479.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Boruto"
@@ -1667,15 +1667,15 @@
         {
             "name": "Sumire",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/327445.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Boruto"
         },
         {
-            "name": "Mob",
+            "name": "Shigeo Kageyama",
             "value": 5000,
-            "url": "",
+            "url": "https://i.imgur.com/4zgp6pV.png",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Mob Psycho 100"
@@ -1683,7 +1683,7 @@
         {
             "name": "Teruki Hanazawa",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/342630.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Mob Psycho 100"
@@ -1691,7 +1691,7 @@
         {
             "name": "Arataka Reigen",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/16/308364.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Mob Psycho 100"
@@ -1699,7 +1699,7 @@
         {
             "name": "Dimpel",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/323196.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Mob Psycho 100"
@@ -1707,39 +1707,39 @@
         {
             "name": "Ritsu",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/299683.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Mob Psycho 100"
         },
         {
-            "name": "Isagi Yoichi",
+            "name": "Yoichi Isagi",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/428844.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Blue Lock"
         },
         {
-            "name": "Nagi",
-            "value": 1000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
-            "rarity": "C",
-            "anime": "Blue Lock"
-        },
-        {
-            "name": "Reo",
+            "name": "Seishirou Nagi",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/401579.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Blue Lock"
         },
         {
-            "name": "Rin",
+            "name": "Reo Mikage",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/9/424044.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
+            "anime": "Blue Lock"
+        },
+        {
+            "name": "Rin Itoshi",
+            "value": 1000,
+            "url": "https://cdn.myanimelist.net/images/characters/9/424043.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Blue Lock"
@@ -1747,31 +1747,31 @@
         {
             "name": "Gagamaru",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/499014.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Blue Lock"
         },
         {
-            "name": "Erina",
+            "name": "Erina Nakiri",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/258039.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Food Wars"
         },
         {
-            "name": "Soma",
+            "name": "Soma Yukihira",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/277502.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Food Wars"
         },
         {
-            "name": "Ikumi",
+            "name": "Ikumi Mito",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/10/208879.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Food Wars"
@@ -1779,7 +1779,7 @@
         {
             "name": "Megumi Tadokoro",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/13/248655.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Food Wars"
@@ -1787,63 +1787,63 @@
         {
             "name": "Takumi Aldini",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/248541.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Food Wars"
         },
         {
-            "name": "Rimuru",
-            "value": 4000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
-            "rarity": "S",
+            "name": "Rimuru Tempest",
+            "value": 5000,
+            "url": "https://cdn.myanimelist.net/images/characters/2/317957.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
+            "rarity": "SS",
             "anime": "That Time I Got Reincarnated as a Slime"
         },
         {
-            "name": "Shuna",
+            "name": "Veldora Tempest",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/381124.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "That Time I Got Reincarnated as a Slime"
         },
         {
             "name": "Gobta",
-            "value": 2000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
-            "rarity": "B",
+            "value": 1000,
+            "url": "https://cdn.myanimelist.net/images/characters/4/381133.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
             "anime": "That Time I Got Reincarnated as a Slime"
         },
         {
             "name": "Benimaru",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/366897.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "That Time I Got Reincarnated as a Slime"
         },
         {
-            "name": "Milim",
-            "value": 1000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
-            "rarity": "C",
+            "name": "Milim Nava",
+            "value": 2000,
+            "url": "https://cdn.myanimelist.net/images/characters/14/453201.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
             "anime": "That Time I Got Reincarnated as a Slime"
         },
         {
             "name": "Kanna",
-            "value": 2000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
-            "rarity": "B",
+            "value": 3000,
+            "url": "https://cdn.myanimelist.net/images/characters/2/322173.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
+            "rarity": "A",
             "anime": "Miss Kobayashi's Dragon Maid"
         },
         {
             "name": "Tohru",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/322676.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Miss Kobayashi's Dragon Maid"
@@ -1851,23 +1851,23 @@
         {
             "name": "Ilulu",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/6/447736.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Miss Kobayashi's Dragon Maid"
         },
         {
             "name": "Kobayashi",
-            "value": 3000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
-            "rarity": "A",
+            "value": 2000,
+            "url": "https://cdn.myanimelist.net/images/characters/5/322682.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
+            "rarity": "B",
             "anime": "Miss Kobayashi's Dragon Maid"
         },
         {
             "name": "Elma",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/7/456447.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Miss Kobayashi's Dragon Maid"
@@ -1875,39 +1875,39 @@
         {
             "name": "Quetzalcoatl",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/322675.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Miss Kobayashi's Dragon Maid"
         },
         {
-            "name": "Maki",
+            "name": "Maki Oze",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/4/464543.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fire Force"
         },
         {
-            "name": "Tamaki",
+            "name": "Tamaki Kotatsu",
             "value": 1000,
-            "url": "",
+            "url": "https://i.imgur.com/UPiTKfx.png",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fire Force"
         },
         {
-            "name": "Shinra",
+            "name": "Shinra Kusakabe",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/12/403255.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Fire Force"
         },
         {
-            "name": "Arthur",
+            "name": "Arthur Boyle",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/2/384687.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Fire Force"
@@ -1915,7 +1915,7 @@
         {
             "name": "Sho Kusakabe",
             "value": 1000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/11/407950.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
             "rarity": "C",
             "anime": "Fire Force"
@@ -1923,7 +1923,7 @@
         {
             "name": "Megumin",
             "value": 5000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/349249.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263870218371/ss.png",
             "rarity": "SS",
             "anime": "Konosuba"
@@ -1931,7 +1931,7 @@
         {
             "name": "Kazuma",
             "value": 4000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/14/327650.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570263635345468/s3.png",
             "rarity": "S",
             "anime": "Konosuba"
@@ -1939,7 +1939,7 @@
         {
             "name": "Yunyun",
             "value": 2000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/5/336481.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218441724015/b.png",
             "rarity": "B",
             "anime": "Konosuba"
@@ -1947,17 +1947,17 @@
         {
             "name": "Darkness",
             "value": 3000,
-            "url": "",
+            "url": "https://cdn.myanimelist.net/images/characters/15/301303.jpg",
             "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
             "rarity": "A",
             "anime": "Konosuba"
         },
         {
             "name": "Aqua",
-            "value": 3000,
-            "url": "",
-            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218143924244/a1.png",
-            "rarity": "A",
+            "value": 1000,
+            "url": "https://cdn.myanimelist.net/images/characters/2/299443.jpg",
+            "rank": "https://media.discordapp.net/attachments/863806697901522955/1097570218680791040/c.png",
+            "rarity": "C",
             "anime": "Konosuba"
         }
     ]

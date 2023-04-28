@@ -11,10 +11,10 @@ def update_balance(user_id, amount):
     conn.commit()
 
 async def add_chips(ctx, amount: int):
-        if amount is None:
-            await ctx.send(embed=discord.Embed(title="Please specify an amount of chips to add.", color=0xff0000))
-            return
-        user = ctx.message.author
-        user_id = user.id
-        update_balance(user_id, amount)
-        await ctx.send(embed=discord.Embed(title="Success", description=f"```Added {amount} chips to {user.name}```", color=discord.Color.green()))
+    if amount is None:
+        await ctx.send(embed=discord.Embed(title="Please specify an amount of chips to add.", color=0xff0000))
+        return
+    user = ctx.message.author
+    user_id = user.id
+    update_balance(user_id, amount)
+    await ctx.send(embed=discord.Embed(title="Success", description=f"```Added {amount} chips to {user.name}```", color=discord.Color.green()))
