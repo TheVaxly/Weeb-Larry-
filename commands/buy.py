@@ -1,5 +1,6 @@
 import discord
 import sqlite3
+import commands.equip as equip
 
 # Create the database connection
 conn = sqlite3.connect('db/inv.db')
@@ -30,11 +31,17 @@ CHIP_ITEMS = {
     'eggplant': 1500,
 }
 
+ALL_ITEMS = {
+    **TICKETS_ITEMS,
+    **CHIP_ITEMS,
+}
 
 
-def inv_add(user_id, item, amount, ITEMS):
+
+def inv_add(user_id, item, amount):
     conn = sqlite3.connect('db/inv.db')
     c = conn.cursor()
+    ITEMS = ALL_ITEMS
 
     # Check if the row exists in the database
     c.execute("SELECT * FROM inv WHERE user_id = ?", (user_id,))
@@ -87,7 +94,7 @@ async def buy(ctx, item: str, amount: int):
     # Update the user's balance and inventory in the database
     new_balance = balance - price
     c.execute(f"UPDATE balances SET {column}=? WHERE user_id=?", (new_balance, user_id))
-    inv_add(user_id, item, amount, ITEMS)
+    inv_add(user_id, item, amount)
     conn_bal.commit()
 
     # Send a confirmation message
@@ -142,10 +149,12 @@ async def sell(ctx, item, amount):
     # Update the user's balance and inventory in the database
     new_balance = balance + int(price * 0.9)
     c.execute(f"UPDATE balances SET {column}=? WHERE user_id=?", (new_balance, user_id))
-    inv_add(user_id, item, -amount)
+    inv_add(user_id, item, -amount) 
+    await equip.unequip_item(ctx, item)
+    
     conn_bal.commit()
 
     # Send a confirmation message
-    embeds=discord.Embed(title="Success", description=f"You sold {amount} {original_items[0]} for {original_items[0]} for {price // 2} {currency}", color=0x00ff00)
+    embeds=discord.Embed(title="Success", description=f"You sold {amount} {original_items[0]} for {int(price * 0.9)} {currency}", color=0x00ff00)
     embeds.set_footer(text=f"Sold by {ctx.author.name}", icon_url=ctx.author.avatar)
     await ctx.send(embed=embeds)

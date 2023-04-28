@@ -6,6 +6,7 @@ import sqlite3
 import commands.free_chips as free_chips, commands.shop as shop, commands.buy as buy
 import commands.addchips as addchips, commands.bal as bal, commands.mission as mission
 import commands.card as card, commands.cards as cards, commands.pull as pull, commands.show as show
+import commands.equip as equip
 
 load_dotenv()
 
@@ -14,17 +15,12 @@ intents.members = True
 
 client = commands.Bot(command_prefix='!', intents=intents)
 
-client.remove_command('help')
 
 @client.event
 async def on_ready():
     print('Logged in as {0.user}'.format(client))
     await client.change_presence(status=discord.Status.dnd, activity=discord.Game(name="Anime Tiddies"))
     await client.tree.sync()
-
-@client.command(name="help", help="Shows this message", aliases=['h'])
-async def help(ctx):
-    ctx.send("Help")
 
 @client.command(name="cards", help="Check your cards", aliases=['c'])
 async def view_cards(ctx):
@@ -99,8 +95,8 @@ async def buyy(ctx, *item: str):
     await buy.buy(ctx, item_name, amount)
 
 
-# Create the database connection
 conn = sqlite3.connect('db/inv.db')
+conn_cards = sqlite3.connect('db/cards.db')
 
 @client.command(name="inv", help="Check your inventory", aliases=['inventory'])
 async def inv(ctx):
@@ -136,10 +132,24 @@ async def inv(ctx):
             'Shuriken',
             'Eggplant'
         ]
+
         for item in items:
             amount = row[items.index(item) + 1]
+
+            # Check if the item has a corresponding card
+            c_cards = conn_cards.cursor()
+            item_name = item.lower().replace(' ', '_').replace('-', '_')
+            c_cards.execute("SELECT * FROM owned_cards WHERE item_id=?", (item_name,))
+            card_rows = c_cards.fetchall()
+
             if amount is not None and amount > 0:
-                embeds.add_field(name=item, value=amount, inline=True)
+                item_str = f"Amount: {amount}"
+                for card_row in card_rows:
+                    #make a card_id list so it shows only how many have equiped and make diffrent command for seeing the ids
+                    card_id = card_row[1]
+                    if card_row[2] > 0:
+                        item_str += f" | Equipped by Card id: {card_id}"
+                embeds.add_field(name=item, value=item_str, inline=True)
 
         if len(embeds.fields) == 0:
             await ctx.send("You don't have any items in your inventory.")
@@ -163,5 +173,15 @@ async def selly(ctx, *item: str):
 @client.command(name="shop", help="Use Larry coins to buy items")
 async def shops(ctx, client=client):
     await shop.shopy(ctx, client)
+
+@client.command(name="equip", help="Equip an item from your inventory")
+async def equipy(ctx, card_id: int=None, *item_name: str):
+    item_name = list(item_name)
+    item_name = [x.lower() for x in item_name]
+    await equip.equip(ctx, card_id, item_name)
+
+@client.command(name="unequip", help="Unequip an item from your inventory")
+async def unequipy(ctx, card_id: int=None):
+    await equip.unequip(ctx, card_id)
 
 client.run(os.getenv('token'))

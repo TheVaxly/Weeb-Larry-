@@ -31,8 +31,8 @@ async def shopy(ctx, client):
     page_two.add_field(name="``Dragon Slayer - (1.8x)`` | 400 special tickets", value="", inline=False)
     page_two.add_field(name="``ODM gear - (1.7x)`` | 150 special tickets", value="", inline=False)
     page_two.add_field(name="══════════════════════════════", value="", inline=False)
-    page_two.add_field(name="Use ``!buy <item name> <quantity>`` to purchase the item.\nUse ``!equip <ninja ID> <item name>`` to equip the item.\nUse ``!unequip <ninja ID>`` to unequip the item.\nUse ``!sell <item name> <quantity>`` to sell the item for 95% of the original price.", value="", inline=False)
-    page_two.set_footer(text=f"Ryō: {ryo}\nSpecial tickets: {special}\nPage 1/2", icon_url=ctx.author.avatar)
+    page_two.add_field(name="Use ``!buy <item name> <quantity>`` to purchase the item.\nUse ``!equip <ninja ID> <item name>`` to equip the item.\nUse ``!unequip <ninja ID>`` to unequip the item.\nUse ``!sell <item name> <quantity>`` to sell the item for 90% of the original price.", value="", inline=False)
+    page_two.set_footer(text=f"Ryō: {ryo}\nSpecial tickets: {special}\nPage 2/2", icon_url=ctx.author.avatar)
 
     page_one = discord.Embed(title="**Gear Shop**", description="Items serve to multiply your card's power with the number in the brackets.", color=0x00ff00)
     page_one.add_field(name="══════════════════════════════", value="", inline=False)
@@ -44,8 +44,8 @@ async def shopy(ctx, client):
     page_one.add_field(name="``Shuriken - (1.15x)`` | 3000 ryō", value="", inline=False)
     page_one.add_field(name="``Eggplant - (1.1x)`` | 1500 ryō", value="", inline=False)
     page_one.add_field(name="══════════════════════════════", value="", inline=False)
-    page_one.add_field(name="Use ``!buy <item name> <quantity>`` to purchase the item.\nUse ``!equip <ninja ID> <item name>`` to equip the item.\nUse ``!unequip <ninja ID>`` to unequip the item.\nUse ``!sell <item name> <quantity>`` to sell the item for 95% of the original price.", value="", inline=False)
-    page_one.set_footer(text=f"Ryō: {ryo}\nSpecial tickets: {special}\nPage 2/2", icon_url=ctx.author.avatar)
+    page_one.add_field(name="Use ``!buy <item name> <quantity>`` to purchase the item.\nUse ``!equip <ninja ID> <item name>`` to equip the item.\nUse ``!unequip <ninja ID>`` to unequip the item.\nUse ``!sell <item name> <quantity>`` to sell the item for 90% of the original price.", value="", inline=False)
+    page_one.set_footer(text=f"Ryō: {ryo}\nSpecial tickets: {special}\nPage 1/2", icon_url=ctx.author.avatar)
 
 
     pages = [page_one, page_two]

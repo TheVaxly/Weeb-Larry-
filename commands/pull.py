@@ -44,8 +44,8 @@ async def add_card(ctx, card_id: int, value: int):
         return
     user_id = ctx.author.id
     # Add card to user's collection
-    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?)',
-              (user_id, card_id, value))
+    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?, ?, ?)',
+              (user_id, card_id, value, 0, 0))
     conn.commit()
 
 last_mission_times = {}

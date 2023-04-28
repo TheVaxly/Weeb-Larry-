@@ -44,11 +44,12 @@ async def carddd(ctx):
               (user_id, card_id, value))
         result = c.fetchone()
         embed.clear_fields()
+        embed.title = f'**{name}**'
         if result:
-            embed.set_footer(text=f"Owned by {ctx.author.name} ✅\nCard {current_index+1}/{len(data['cards'])} | Card ID: {card_id}")
+            embed.set_footer(text=f"Owned by {ctx.author.name} ✅\nAll cards--{current_index+1}/{len(data['cards'])} | Card ID: {card_id}", icon_url=ctx.author.avatar)
         elif not result:
-            embed.set_footer(text=f"Owned by {ctx.author.name} ❌\nCard {current_index+1}/{len(data['cards'])} | Card ID: {card_id}")
-        embed.add_field(name=name, value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
+            embed.set_footer(text=f"Owned by {ctx.author.name} ❌\nAll cards--{current_index+1}/{len(data['cards'])} | Card ID: {card_id}", icon_url=ctx.author.avatar)
+        embed.add_field(name="", value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
         embed.set_thumbnail(url=rank)
         embed.set_image(url=url)
     

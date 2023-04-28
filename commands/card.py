@@ -11,6 +11,8 @@ c.execute('''CREATE TABLE IF NOT EXISTS owned_cards
              (user_id INTEGER,
               card_id INTEGER,
               value INTEGER,
+              item_id INTEGER,
+              equiped INTEGER,
               FOREIGN KEY(card_id) REFERENCES cards(id))''')
 
 c.execute('''CREATE TABLE IF NOT EXISTS cards
@@ -67,8 +69,8 @@ async def add_card(ctx, card_id: int):
         return
 
     # Add card to user's collection
-    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?)',
-              (user_id, card_id, value))
+    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?, ?, ?)',
+              (user_id, card_id, value, 0, 0))
     conn.commit()
     await ctx.send('Card added to your collection.')
 
