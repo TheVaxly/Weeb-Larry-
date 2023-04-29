@@ -56,6 +56,25 @@ DB_ITEMS = {
     'eggplant',
 }
 
+M_ITEMS = {
+    'truck_kun': 3.25,
+    'super_dragon_balls': 2.85,
+    'death_note': 2.5,
+    'sword_of_rupture': 2.3,
+    'truth_seeking_orbs': 2.2,
+    'gun': 2,
+    'murasame': 1.9,
+    'dragon_slayer': 1.8,
+    'odm_gear': 1.7,
+    'super_tengen_toppa_gurren_lagann': 2,
+    'spear_of_longinus': 1.5,
+    'lostvayne': 1.4,
+    'katana': 1.3,
+    'kunai': 1.2,
+    'shuriken': 1.15,
+    'eggplant': 1.1,
+}
+
 async def equip(ctx, card_id, item_name):
     original_item = ' '.join(item_name)
     item = '_'.join(item_name)
@@ -108,6 +127,11 @@ async def equip(ctx, card_id, item_name):
         if result[0] > list_resulty[0]:
             await ctx.send(f"You have all {original_item} on use.")
             return
+        # if item in M_ITEMS:
+        #     c.execute('SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
+        #     result = c.fetchone()
+        #     result = list(result)
+        #     c.execute('UPDATE owned_cards SET value = ? WHERE user_id = ? AND card_id = ?', (M_ITEMS[item]*result[0], ctx.author.id, card_id))
         c.execute('UPDATE owned_cards SET item_id = ? WHERE user_id = ? AND card_id = ?', (item, ctx.author.id, card_id))
         c.execute('UPDATE owned_cards SET equiped = ? WHERE user_id = ? AND card_id = ?', (1, ctx.author.id, card_id))
         conn.commit()

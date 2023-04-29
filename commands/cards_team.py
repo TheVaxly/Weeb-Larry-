@@ -21,7 +21,24 @@ tc.execute('''CREATE TABLE IF NOT EXISTS teams
                     FOREIGN KEY(card_2) REFERENCES cards(id),
                     FOREIGN KEY(card_3) REFERENCES cards(id),
                     FOREIGN KEY(card_4) REFERENCES cards(id))''')
-
+DB_ITEMS = {
+    'truck_kun': 3.25,
+    'super_dragon_balls': 2.85,
+    'death_note': 2.5,
+    'sword_of_rupture': 2.3,
+    'truth_seeking_orbs': 2.2,
+    'gun': 2,
+    'murasame': 1.9,
+    'dragon_slayer': 1.8,
+    'odm_gear': 1.7,
+    'super_tengen_toppa_gurren_lagann': 2,
+    'spear_of_longinus': 1.5,
+    'lostvayne': 1.4,
+    'katana': 1.3,
+    'kunai': 1.2,
+    'shuriken': 1.15,
+    'eggplant': 1.1,
+}
 
 async def team(ctx, option=None, card_id=None, client=None):
     if option is None:
@@ -29,21 +46,39 @@ async def team(ctx, option=None, card_id=None, client=None):
         tc.execute('''SELECT card_1, card_2, card_3, card_4 FROM teams
                      WHERE user_id = ?''', (user_id,))
         team = tc.fetchone()
+        if team is None:
+            await ctx.send("You haven't set up a team yet. Use `!team add <card_id>` to add a card to your team.")
+        team = list(filter(None, team))
+        c.execute("SELECT item_id FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
+        card_item = c.fetchone()
+        card_item = list(filter(None, card_item))
         if team:
             team = list(filter(None, team))
             team_str = ','.join([str(id) for id in team])
-            print (team_str)
             c.execute(f"SELECT name, value, url, rank, rarity FROM cards WHERE id IN ({team_str}) ORDER BY value DESC")
             cards = c.fetchall()
 
             embed = discord.Embed(title=f"**{ctx.author.name}'s Team**", color=discord.Color.blurple())
             current_index = 0
             card_name, card_value, card_url, card_rank, rarity = cards[current_index]
+            equipped_item = "---"
+            if not card_item:
+                card_value = card_value
+            elif card_item: 
+                if card_item[0] in DB_ITEMS:
+                    equipped_item = f"{card_item[0].replace('_', ' ').title()} ({DB_ITEMS[card_item[0]]}x)"
+                    multiplier = DB_ITEMS[card_item[0]]
+                    card_value = int(card_value * multiplier)
+                elif card_item[0] == 0:
+                    card_value = card_value
+            
+            total_value = 0
+            
             embed.title = f"**{card_name}**"
-            embed.add_field(name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}", inline=False)
+            embed.add_field(name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}\n**Equipped**: {equipped_item}", inline=False)
             embed.set_image(url=card_url)
             embed.set_thumbnail(url=card_rank)
-            embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {team[0]}", icon_url=ctx.author.avatar)
+            embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {team[0]}\nTotal power: {total_value}", icon_url=ctx.author.avatar)
 
             msg = await ctx.send(embed=embed)
             await msg.add_reaction('◀️')
@@ -51,7 +86,7 @@ async def team(ctx, option=None, card_id=None, client=None):
 
             def check(reaction, user):
                 return user == ctx.author and reaction.message.id == msg.id and reaction.emoji in ['◀️', '▶️']
-
+            
             while True:
                 try:
                     reaction, user = await client.wait_for('reaction_add', timeout=180, check=check)
@@ -60,6 +95,20 @@ async def team(ctx, option=None, card_id=None, client=None):
                         if current_index < 0:
                             current_index = len(cards) - 1
                         card_name, card_value, card_url, card_rank, rarity = cards[current_index]
+                        c.execute(f"SELECT item_id FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[current_index]))
+                        card_item = c.fetchone()
+                        card_item = list(filter(None, card_item))
+                        
+                        if card_item:
+                            if card_item[0] in DB_ITEMS:
+                                card_item_name = f"{card_item[0].replace('_', ' ').title()} ({DB_ITEMS[card_item[0]]}x)"
+                                multiplier = DB_ITEMS[card_item[0]]
+                                card_value = int(multiplier * card_value)
+                            else:
+                                card_item_name = "---"
+                        else:
+                            card_item_name = "---"
+                            card_value = cards[current_index][1]
                         c.execute(f"SELECT id FROM cards WHERE name = '{card_name}'")
                         id = c.fetchone()[0]
                     elif reaction.emoji == '▶️':
@@ -67,18 +116,32 @@ async def team(ctx, option=None, card_id=None, client=None):
                         if current_index >= len(cards):
                             current_index = 0
                         card_name, card_value, card_url, card_rank, rarity = cards[current_index]
+                        c.execute(f"SELECT item_id FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[current_index]))
+                        card_item = c.fetchone()
+                        card_item = list(filter(None, card_item))
+                        if card_item:
+                            if card_item[0] in DB_ITEMS:
+                                card_item_name = f"{card_item[0].replace('_', ' ').title()} ({DB_ITEMS[card_item[0]]}x)"
+                                multiplier = DB_ITEMS[card_item[0]]
+                                card_value = int(multiplier * card_value)
+                            else:
+                                card_item_name = "---"
+                        else:
+                            card_item_name = "---"
+                            card_value = cards[current_index][1]
                         c.execute(f"SELECT id FROM cards WHERE name = '{card_name}'")
                         id = c.fetchone()[0]
                     await msg.remove_reaction(reaction, user)
                     embed.title = f"**{card_name}**"
-                    embed.set_field_at(0, name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}", inline=False)
+                    embed.set_field_at(0, name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}\n**Equipped**: {card_item_name}", inline=False)
                     embed.set_image(url=card_url)
                     embed.set_thumbnail(url=card_rank)
-                    embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {id}", icon_url=ctx.author.avatar)
+                    embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {id}\nTotal power: {total_value}", icon_url=ctx.author.avatar)
                     await msg.edit(embed=embed)
                 except asyncio.TimeoutError:
                     await msg.clear_reactions()
                     break
+
 
         else:
             await ctx.send("You haven't set up a team yet. Use `!team add <card_id>` to add a card to your team.")
@@ -137,4 +200,3 @@ async def team(ctx, option=None, card_id=None, client=None):
                 await ctx.send(f"Card removed from your team!")
     else:
         await ctx.send("Invalid option. Use `!team add <card_id>` to add a card to your team.")
-
