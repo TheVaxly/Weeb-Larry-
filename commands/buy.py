@@ -4,7 +4,7 @@ import commands.equip as equip
 
 # Create the database connection
 conn = sqlite3.connect('db/inv.db')
-conn.execute('CREATE TABLE IF NOT EXISTS inv (user_id INTEGER PRIMARY KEY, truck_kun INTEGER, super_dragon_balls INTEGER, death_note INTEGER, sword_of_rupture INTEGER, truth_seeking_orbs INTEGER, gun INTEGER, surasame INTEGER, dragon_slayer INTEGER, odm_gear INTEGER, super_tengen_toppa_gurren_lagann INTEGER, spear_of_longinus INTEGER, lostvayne INTEGER, katana INTEGER, kunai INTEGER, shuriken INTEGER, eggplant INTEGER)')
+conn.execute('CREATE TABLE IF NOT EXISTS inv (user_id INTEGER PRIMARY KEY, truck_kun INTEGER, super_dragon_balls INTEGER, death_note INTEGER, sword_of_rupture INTEGER, truth_seeking_orbs INTEGER, gun INTEGER, murasame INTEGER, dragon_slayer INTEGER, odm_gear INTEGER, super_tengen_toppa_gurren_lagann INTEGER, spear_of_longinus INTEGER, lostvayne INTEGER, katana INTEGER, kunai INTEGER, shuriken INTEGER, eggplant INTEGER)')
 conn.commit()
 
 conn_bal = sqlite3.connect('db/balances.db')

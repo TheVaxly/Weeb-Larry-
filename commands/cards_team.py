@@ -32,17 +32,18 @@ async def team(ctx, option=None, card_id=None, client=None):
         if team:
             team = list(filter(None, team))
             team_str = ','.join([str(id) for id in team])
+            print (team_str)
             c.execute(f"SELECT name, value, url, rank, rarity FROM cards WHERE id IN ({team_str}) ORDER BY value DESC")
             cards = c.fetchall()
 
             embed = discord.Embed(title=f"**{ctx.author.name}'s Team**", color=discord.Color.blurple())
             current_index = 0
             card_name, card_value, card_url, card_rank, rarity = cards[current_index]
-
-            embed.add_field(name=f"**Name**: {card_name}", value=f"**Value**: {card_value}\n**Rank**: {rarity}", inline=False)
+            embed.title = f"**{card_name}**"
+            embed.add_field(name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}", inline=False)
             embed.set_image(url=card_url)
             embed.set_thumbnail(url=card_rank)
-            embed.set_footer(text=f"Card ID: {card_id}", icon_url=ctx.author.avatar)
+            embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {team[0]}", icon_url=ctx.author.avatar)
 
             msg = await ctx.send(embed=embed)
             await msg.add_reaction('◀️')
@@ -53,22 +54,27 @@ async def team(ctx, option=None, card_id=None, client=None):
 
             while True:
                 try:
-                    reaction, user = await client.wait_for('reaction_add', timeout=30, check=check)
+                    reaction, user = await client.wait_for('reaction_add', timeout=180, check=check)
                     if reaction.emoji == '◀️':
                         current_index -= 1
                         if current_index < 0:
                             current_index = len(cards) - 1
                         card_name, card_value, card_url, card_rank, rarity = cards[current_index]
+                        c.execute(f"SELECT id FROM cards WHERE name = '{card_name}'")
+                        id = c.fetchone()[0]
                     elif reaction.emoji == '▶️':
                         current_index += 1
                         if current_index >= len(cards):
                             current_index = 0
                         card_name, card_value, card_url, card_rank, rarity = cards[current_index]
+                        c.execute(f"SELECT id FROM cards WHERE name = '{card_name}'")
+                        id = c.fetchone()[0]
                     await msg.remove_reaction(reaction, user)
-                    embed.set_field_at(0, name=f"**Name**: {card_name}", value=f"**Value**: {card_value}\n**Rank**: {rarity}", inline=False)
+                    embed.title = f"**{card_name}**"
+                    embed.set_field_at(0, name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}", inline=False)
                     embed.set_image(url=card_url)
                     embed.set_thumbnail(url=card_rank)
-                    embed.set_footer(text=f"Card ID: {card_id}", icon_url=ctx.author.avatar)
+                    embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {id}", icon_url=ctx.author.avatar)
                     await msg.edit(embed=embed)
                 except asyncio.TimeoutError:
                     await msg.clear_reactions()

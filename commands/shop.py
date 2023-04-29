@@ -60,7 +60,7 @@ async def shopy(ctx, client):
 
     while True:
         try:
-            reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
+            reaction, user = await client.wait_for('reaction_add', timeout=180, check=check)
 
             if str(reaction.emoji) == '➡️':
                 current_page += 1
