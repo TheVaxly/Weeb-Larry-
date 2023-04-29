@@ -171,7 +171,7 @@ async def unequip_item(ctx, item):
         c_inv.execute(f'SELECT {item} FROM inv WHERE user_id = ?', (ctx.author.id,))
         resulty = c_inv.fetchone()
         print (resulty)
-        c_used.execute(f'UPDATE used_items SET used_{item} = ? WHERE user_id = ?', (result[0] - 1, ctx.author.id))
+        c_used.execute(f'UPDATE used_items SET used_{item} = ? WHERE user_id = ?', (result[0] - result_list[0], ctx.author.id))
         c.execute('UPDATE owned_cards SET equiped = ? WHERE user_id = ? AND item_id = ?', (0, ctx.author.id, item))
         c.execute('UPDATE owned_cards SET item_id = ? WHERE user_id = ? AND item_id = ?', (0, ctx.author.id, item))
         conn_used.commit()
