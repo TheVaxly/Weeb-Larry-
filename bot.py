@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from discord.ext import commands
 import sqlite3
 import commands.free_chips as free_chips, commands.shop as shop, commands.buy as buy
-import commands.addchips as addchips, commands.bal as bal, commands.mission as mission
+import commands.addchips as addchips, commands.bal as bal, commands.mission as mission, commands.cards_team as cards_team
 import commands.card as card, commands.cards as cards, commands.pull as pull, commands.show as show
 import commands.equip as equip
 
@@ -183,5 +183,9 @@ async def equipy(ctx, card_id: int=None, *item_name: str):
 @client.command(name="unequip", help="Unequip an item from your inventory")
 async def unequipy(ctx, card_id: int=None):
     await equip.unequip(ctx, card_id)
+
+@client.command(name="team", help="See your team")
+async def teamy(ctx, option: str=None, card_id: int=None, client=client):
+    await cards_team.team(ctx, option, card_id, client)
 
 client.run(os.getenv('token'))

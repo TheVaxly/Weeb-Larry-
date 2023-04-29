@@ -6,6 +6,25 @@ import random
 conn = sqlite3.connect('db/cards.db')
 c = conn.cursor()
 
+ITEMS = {
+    'truck_kun': 3.25,
+    'super_dragon_balls': 2.85,
+    'death_note': 2.5,
+    'sword_of_rupture': 2.3,
+    'truth_seeking_orbs': 2.2,
+    'gun': 2,
+    'murasame': 1.9,
+    'dragon_slayer': 1.8,
+    'odm_gear': 1.7,
+    'super_tengen_toppa_gurren_lagann': 2,
+    'spear_of_longinus': 1.5,
+    'lostvayne': 1.4,
+    'katana': 1.3,
+    'kunai': 1.2,
+    'shuriken': 1.15,
+    'eggplant': 1.1,
+}
+
 # Create owned_cards table if it doesn't exist
 c.execute('''CREATE TABLE IF NOT EXISTS owned_cards
              (user_id INTEGER,
@@ -76,11 +95,12 @@ async def add_card(ctx, card_id: int):
 
 async def view_collection(ctx):
     user_id = ctx.author.id
-    c.execute('''SELECT cards.id, cards.name, cards.value, cards.url, cards.rank, cards.anime, cards.rarity
+    c.execute('''SELECT cards.id, cards.name, cards.value, cards.url, cards.rank, cards.anime, cards.rarity, owned_cards.item_id
                  FROM owned_cards
                  INNER JOIN cards ON owned_cards.card_id = cards.id
                  WHERE owned_cards.user_id = ?''', (user_id,))
     results = c.fetchall()
+    print(results)
     if not results:
         await ctx.send('You don\'t have any cards yet.')
         return
@@ -90,14 +110,20 @@ async def view_collection(ctx):
     current_index = 0
     def update_embed():
         nonlocal current_index
+        results.sort(key=lambda x: -x[2] * ITEMS.get(x[7], 1))
         embed.clear_fields()
-        results.sort(key=lambda x: x[2], reverse=True)
-        card_id, name, value, url, rank, anime, rarity = results[current_index]
+        card_id, name, value, url, rank, anime, rarity, item_id = results[current_index]
+        item_name = "---"
+        if item_id in ITEMS:
+            item_name = list(ITEMS.keys())[list(ITEMS.values()).index(ITEMS[item_id])]
+            item_name = f"{item_name.replace('_', ' ').title()} ({ITEMS[item_id]}x)"
+            value = int(value * ITEMS[item_id])
         embed.title = f"**{name}**"
-        embed.add_field(name="", value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}', inline=False)
+        embed.add_field(name="", value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}\n**Equipped**: {item_name}', inline=False)
         embed.set_thumbnail(url=rank)
         embed.set_image(url=url)
         embed.set_footer(text=f"{ctx.author.name}'s cards--{current_index+1}/{len(results)} | Card id: {card_id}", icon_url=ctx.author.avatar)
+
     
     update_embed()
     message = await ctx.send(embed=embed)

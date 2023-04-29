@@ -62,9 +62,23 @@ async def equip(ctx, card_id, item_name):
     if item not in DB_ITEMS:
         await ctx.send('Invalid item.')
         return
+    c.execute('SELECT * FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
+    result = c.fetchone()
+    if result is None:
+        await ctx.send('You do not own this card.')
+        return
+    else:
+        if result[4] == 1:
+            await ctx.send('This card is equipped with an item. Please unequip the item first.')
+            return
+        elif result[4] == 0:
+            pass
     c_inv.execute(f'SELECT {item} FROM inv WHERE user_id = ?', (ctx.author.id,))
-    result = c_inv.fetchone()
-    result_list = list(result)
+    resultim = c_inv.fetchone()
+    if resultim == (0,):
+        await ctx.send('You do not own this item.')
+        return
+    result_list = list(resultim)
     c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
     results = c_used.fetchone()
     if results is None:
@@ -79,29 +93,8 @@ async def equip(ctx, card_id, item_name):
     elif result_list[0] > results_list[0]:
         c_used.execute(f'UPDATE used_items SET used_{item} = ? WHERE user_id = ?', (results_list[0] + 1, ctx.author.id))
         conn_used.commit()
-    c_inv.execute(f'SELECT {item} FROM inv WHERE user_id = ?', (ctx.author.id,))
-    resulty = c_inv.fetchone()
-    if resulty == (0,):
-        await ctx.send('You do not own this item.')
-        return
-    c.execute('SELECT * FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
-    result = c.fetchone()
-    if result is None:
-        await ctx.send('You do not own this card.')
-        return
-    else:
-        if result[4] == 1:
-            await ctx.send('This card is equipped with an item. Please unequip the item first.')
-            return
-        elif result[4] == 0:
-            pass
     if card_id < 1 or card_id > len(card_data['cards']):
         await ctx.send('Invalid card ID.')
-        return
-    c.execute('SELECT * FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
-    result = c.fetchone()
-    if result is None:
-        await ctx.send('You do not own this card.')
         return
     else:
         c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
@@ -111,7 +104,7 @@ async def equip(ctx, card_id, item_name):
             conn_used.commit()
             c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
             result = c_used.fetchone()
-        list_resulty = list(resulty)
+        list_resulty = list(resultim)
         if result[0] > list_resulty[0]:
             await ctx.send(f"You have all {original_item} on use.")
             return

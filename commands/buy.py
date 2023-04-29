@@ -16,7 +16,7 @@ TICKETS_ITEMS = {
     'sword_of_rupture': 3400,
     'truth_seeking_orbs': 2400,
     'gun': 1600,
-    'surasame': 900,
+    'murasame': 900,
     'dragon_slayer': 400,
     'odm_gear': 150,
 }
