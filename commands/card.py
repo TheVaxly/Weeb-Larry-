@@ -32,6 +32,8 @@ c.execute('''CREATE TABLE IF NOT EXISTS owned_cards
               value INTEGER,
               item_id INTEGER,
               equiped INTEGER,
+              level INTEGER DEFAULT 1,
+              xp INTEGER DEFAULT 0,
               FOREIGN KEY(card_id) REFERENCES cards(id))''')
 
 c.execute('''CREATE TABLE IF NOT EXISTS cards
@@ -88,23 +90,21 @@ async def add_card(ctx, card_id: int):
         return
 
     # Add card to user's collection
-    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?, ?, ?)',
-              (user_id, card_id, value, 0, 0))
+    c.execute('INSERT INTO owned_cards VALUES (?, ?, ?, ?, ?, ?, ?)',
+              (user_id, card_id, value, 0, 0, 1, 0))
     conn.commit()
     await ctx.send('Card added to your collection.')
 
 async def view_collection(ctx):
     user_id = ctx.author.id
-    c.execute('''SELECT cards.id, cards.name, cards.value, cards.url, cards.rank, cards.anime, cards.rarity, owned_cards.item_id
+    c.execute('''SELECT cards.id, cards.name, cards.value, cards.url, cards.rank, cards.anime, cards.rarity, owned_cards.item_id, owned_cards.level
                  FROM owned_cards
                  INNER JOIN cards ON owned_cards.card_id = cards.id
                  WHERE owned_cards.user_id = ?''', (user_id,))
     results = c.fetchall()
-    print(results)
     if not results:
         await ctx.send('You don\'t have any cards yet.')
         return
-
     # Create embed with user's card collection
     embed = discord.Embed(title=f"**{ctx.author.name}'s Card Collection**", color=discord.Color.blurple())
     current_index = 0
@@ -112,13 +112,13 @@ async def view_collection(ctx):
         nonlocal current_index
         results.sort(key=lambda x: -x[2] * ITEMS.get(x[7], 1))
         embed.clear_fields()
-        card_id, name, value, url, rank, anime, rarity, item_id = results[current_index]
+        card_id, name, value, url, rank, anime, rarity, item_id, level = results[current_index]
         item_name = "---"
         if item_id in ITEMS:
             item_name = list(ITEMS.keys())[list(ITEMS.values()).index(ITEMS[item_id])]
             item_name = f"{item_name.replace('_', ' ').title()} ({ITEMS[item_id]}x)"
             value = int(value * ITEMS[item_id])
-        embed.title = f"**{name}**"
+        embed.title = f"**{name} | Lvl. {level}**"
         embed.add_field(name="", value=f'**Anime**: {anime}\n**Power**: {value}\n**Rarity**: {rarity}\n**Equipped**: {item_name}', inline=False)
         embed.set_thumbnail(url=rank)
         embed.set_image(url=url)

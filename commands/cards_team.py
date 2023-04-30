@@ -59,6 +59,8 @@ async def team(ctx, option=None, card_id=None, client=None):
             team_str = ','.join([str(id) for id in team])
             c.execute(f"SELECT name, value, url, rank, rarity FROM cards WHERE id IN ({team_str}) ORDER BY value DESC")
             cards = c.fetchall()
+            c.execute(f"SELECT level FROM owned_cards WHERE user_id = ? AND card_id IN ({team_str})", (user_id,))
+            levels = c.fetchall()
             if len(team) == 1:	
                 c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
                 card_value = c.fetchone()[0]
@@ -98,11 +100,11 @@ async def team(ctx, option=None, card_id=None, client=None):
                     card_value = int(card_value * multiplier)
                 elif card_item[0] == 0:
                     card_value = card_value
-            embed.title = f"**{card_name}**"
+            embed.title = f"**{card_name} | Lvl {levels[current_index][0]}**"
             embed.add_field(name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}\n**Equipped**: {equipped_item}", inline=False)
             embed.set_image(url=card_url)
             embed.set_thumbnail(url=card_rank)
-            embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {team[0]}\nTotal power: {total_value}", icon_url=ctx.author.avatar)
+            embed.set_footer(text=f"Team power: {total_value}\n{ctx.author.name}'s team--{current_index + 1}/{len(cards)} | Card ID: {team[current_index]}", icon_url=ctx.author.avatar)
 
             msg = await ctx.send(embed=embed)
             await msg.add_reaction('◀️')
@@ -155,17 +157,17 @@ async def team(ctx, option=None, card_id=None, client=None):
                             card_value = cards[current_index][1]
                         c.execute(f"SELECT id FROM cards WHERE name = '{card_name}'")
                         id = c.fetchone()[0]
+                    
                     await msg.remove_reaction(reaction, user)
-                    embed.title = f"**{card_name}**"
+                    embed.title = f"**{card_name} | Lvl {levels[current_index][0]}**"
                     embed.set_field_at(0, name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}\n**Equipped**: {card_item_name}", inline=False)
                     embed.set_image(url=card_url)
                     embed.set_thumbnail(url=card_rank)
-                    embed.set_footer(text=f"{ctx.author.name}'s team | Card ID: {id}\nTotal power: {total_value}", icon_url=ctx.author.avatar)
+                    embed.set_footer(text=f"Team power: {total_value}\n{ctx.author.name}'s team--{current_index + 1}/{len(cards)} | Card ID: {team[current_index]}", icon_url=ctx.author.avatar)
                     await msg.edit(embed=embed)
                 except asyncio.TimeoutError:
                     await msg.clear_reactions()
                     break
-
 
         else:
             await ctx.send("You haven't set up a team yet. Use `!team add <card_id>` to add a card to your team.")
