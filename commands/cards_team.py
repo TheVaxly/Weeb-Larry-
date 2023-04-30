@@ -46,10 +46,10 @@ async def team(ctx, option=None, card_id=None, client=None):
         tc.execute('''SELECT card_1, card_2, card_3, card_4 FROM teams
                      WHERE user_id = ?''', (user_id,))
         team = tc.fetchone()
-        if team is None:
+        team = list(filter(None, team))
+        if not team:
             await ctx.send("You haven't set up a team yet. Use `!team add <card_id>` to add a card to your team.")
             return
-        team = list(filter(None, team))
         c.execute("SELECT item_id FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
         card_item = c.fetchone()
         card_item = list(filter(None, card_item))
