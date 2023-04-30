@@ -84,6 +84,7 @@ async def team(ctx, option=None, card_id=None, client=None):
                 c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[3]))
                 card_value += c.fetchone()[0]
             total_value += card_value
+            total_value = round(total_value, 0)
             embed = discord.Embed(title=f"**{ctx.author.name}'s Team**", color=discord.Color.blurple())
             current_index = 0
             card_name, card_value, card_url, card_rank, rarity = cards[current_index]
