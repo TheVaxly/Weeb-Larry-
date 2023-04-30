@@ -9,6 +9,9 @@ conn.commit()
 
 conn_bal = sqlite3.connect('db/balances.db')
 
+conn_cards = sqlite3.connect('db/cards.db')
+c_cards = conn_cards.cursor()
+
 TICKETS_ITEMS = {
     'truck_kun': 49999,
     'super_dragon_balls': 9999,

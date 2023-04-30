@@ -127,11 +127,11 @@ async def equip(ctx, card_id, item_name):
         if result[0] > list_resulty[0]:
             await ctx.send(f"You have all {original_item} on use.")
             return
-        # if item in M_ITEMS:
-        #     c.execute('SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
-        #     result = c.fetchone()
-        #     result = list(result)
-        #     c.execute('UPDATE owned_cards SET value = ? WHERE user_id = ? AND card_id = ?', (M_ITEMS[item]*result[0], ctx.author.id, card_id))
+        if item in M_ITEMS:
+             c.execute('SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
+             result = c.fetchone()
+             result = list(result)
+             c.execute('UPDATE owned_cards SET value = ? WHERE user_id = ? AND card_id = ?', (M_ITEMS[item]*result[0], ctx.author.id, card_id))
         c.execute('UPDATE owned_cards SET item_id = ? WHERE user_id = ? AND card_id = ?', (item, ctx.author.id, card_id))
         c.execute('UPDATE owned_cards SET equiped = ? WHERE user_id = ? AND card_id = ?', (1, ctx.author.id, card_id))
         conn.commit()
@@ -159,6 +159,16 @@ async def unequip(ctx, card_id):
             conn_used.commit()
             c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
             result = c_used.fetchone()
+        if item in M_ITEMS:
+            c.execute('SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?', (ctx.author.id, card_id))
+            resulta = c.fetchone()
+            resulta = list(resulta)
+            old_value = resulta[0] // M_ITEMS[item]
+            print (old_value)
+            old_value = round(old_value, 0)
+            if old_value != 1000 or 2000 or 3000 or 4000 or 5000:
+                old_value += 1
+            c.execute('UPDATE owned_cards SET value = ? WHERE user_id = ? AND card_id = ?', (old_value, ctx.author.id, card_id))
         c_used.execute(f'UPDATE used_items SET used_{item} = ? WHERE user_id = ?', (result[0] - 1, ctx.author.id))
         conn_used.commit()
         c.execute('UPDATE owned_cards SET item_id = ? WHERE user_id = ? AND card_id = ?', (0, ctx.author.id, card_id))
@@ -175,6 +185,11 @@ async def unequip_item(ctx, item):
     if result is None:
         return
     else:
+        old_value = result[2] // M_ITEMS[item]
+        old_value = round(old_value, 0)
+        if old_value != 1000 or 2000 or 3000 or 4000 or 5000:
+            old_value += 1
+        c.execute('UPDATE owned_cards SET value = ? WHERE user_id = ? AND item_id = ?', (old_value, ctx.author.id, item))
         c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
         result = c_used.fetchone()
         if result is None:
@@ -187,7 +202,6 @@ async def unequip_item(ctx, item):
             return
         c_inv.execute(f'SELECT {item} FROM inv WHERE user_id = ?', (ctx.author.id,))
         resulty = c_inv.fetchone()
-        print (resulty)
         c_used.execute(f'UPDATE used_items SET used_{item} = ? WHERE user_id = ?', (result[0] - result_list[0], ctx.author.id))
         c.execute('UPDATE owned_cards SET equiped = ? WHERE user_id = ? AND item_id = ?', (0, ctx.author.id, item))
         c.execute('UPDATE owned_cards SET item_id = ? WHERE user_id = ? AND item_id = ?', (0, ctx.author.id, item))

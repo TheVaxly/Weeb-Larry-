@@ -48,16 +48,42 @@ async def team(ctx, option=None, card_id=None, client=None):
         team = tc.fetchone()
         if team is None:
             await ctx.send("You haven't set up a team yet. Use `!team add <card_id>` to add a card to your team.")
+            return
         team = list(filter(None, team))
         c.execute("SELECT item_id FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
         card_item = c.fetchone()
         card_item = list(filter(None, card_item))
+        total_value = 0
         if team:
             team = list(filter(None, team))
             team_str = ','.join([str(id) for id in team])
             c.execute(f"SELECT name, value, url, rank, rarity FROM cards WHERE id IN ({team_str}) ORDER BY value DESC")
             cards = c.fetchall()
-
+            if len(team) == 1:	
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
+                card_value = c.fetchone()[0]
+            elif len(team) == 2:
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
+                card_value = c.fetchone()[0]
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[1]))
+                card_value += c.fetchone()[0]
+            elif len(team) == 3:
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
+                card_value = c.fetchone()[0]
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[1]))
+                card_value += c.fetchone()[0]
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[2]))
+                card_value += c.fetchone()[0]
+            elif len(team) == 4:
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[0]))
+                card_value = c.fetchone()[0]
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[1]))
+                card_value += c.fetchone()[0]
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[2]))
+                card_value += c.fetchone()[0]
+                c.execute("SELECT value FROM owned_cards WHERE user_id = ? AND card_id = ?", (user_id, team[3]))
+                card_value += c.fetchone()[0]
+            total_value += card_value
             embed = discord.Embed(title=f"**{ctx.author.name}'s Team**", color=discord.Color.blurple())
             current_index = 0
             card_name, card_value, card_url, card_rank, rarity = cards[current_index]
@@ -71,9 +97,6 @@ async def team(ctx, option=None, card_id=None, client=None):
                     card_value = int(card_value * multiplier)
                 elif card_item[0] == 0:
                     card_value = card_value
-            
-            total_value = 0
-            
             embed.title = f"**{card_name}**"
             embed.add_field(name="", value=f"**Value**: {card_value}\n**Rank**: {rarity}\n**Equipped**: {equipped_item}", inline=False)
             embed.set_image(url=card_url)
@@ -195,7 +218,7 @@ async def team(ctx, option=None, card_id=None, client=None):
             if card_index is None:
                 await ctx.send("You don't have this card in your team.")
             else:
-                tc.execute(f'UPDATE teams SET card_{card_index} = NULL WHERE user_id = ?', (user_id,))
+                tc.execute(f'UPDATE teams SET card_{card_index} = 0 WHERE user_id = ?', (user_id,))
                 team_conn.commit()
                 await ctx.send(f"Card removed from your team!")
     else:
