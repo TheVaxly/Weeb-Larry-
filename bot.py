@@ -6,7 +6,7 @@ import sqlite3
 import commands.free_chips as free_chips, commands.shop as shop, commands.buy as buy
 import commands.addchips as addchips, commands.bal as bal, commands.mission as mission, commands.cards_team as cards_team
 import commands.card as card, commands.cards as cards, commands.pull as pull, commands.show as show
-import commands.equip as equip
+import commands.equip as equip, commands.battle as battle
 
 load_dotenv()
 
@@ -187,5 +187,9 @@ async def unequipy(ctx, card_id: int=None):
 @client.command(name="team", help="See your team")
 async def teamy(ctx, option: str=None, card_id: int=None, client=client):
     await cards_team.team(ctx, option, card_id, client)
+
+@client.command(name="battle", help="Battle another user")
+async def battley(ctx, user: discord.User=None):
+    await battle.battle(ctx, user)
 
 client.run(os.getenv('token'))
