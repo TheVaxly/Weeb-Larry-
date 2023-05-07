@@ -21,7 +21,7 @@ async def shopy(ctx, client):
     special = get_balance(ctx.author.id)[1]
     page_two = discord.Embed(title="**Gear Shop**", description="Items serve to multiply your card's power with the number in the brackets.", color=0x00ff00)
     page_two.add_field(name="══════════════════════════════", value="", inline=False)
-    page_two.add_field(name="``Truck-kun - (3.25x)`` | 49999 special tickets", value="", inline=False)
+    page_two.add_field(name="``Truck kun - (3.25x)`` | 49999 special tickets", value="", inline=False)
     page_two.add_field(name="``Super Dragon Balls - (2.85x)`` | 9999 special tickets", value="", inline=False)
     page_two.add_field(name="``Death Note - (2.5x)`` | 4500 special tickets", value="", inline=False)
     page_two.add_field(name="``Sword of Rupture - (2.3x)`` | 3400 special tickets", value="", inline=False)

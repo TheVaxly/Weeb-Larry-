@@ -166,7 +166,7 @@ async def unequip(ctx, card_id):
             old_value = resulta[0] // M_ITEMS[item]
             print (old_value)
             old_value = round(old_value, 0)
-            if old_value != 1000 or 2000 or 3000 or 4000 or 5000:
+            if old_value % 10 not in [0, 5]:
                 old_value += 1
             c.execute('UPDATE owned_cards SET value = ? WHERE user_id = ? AND card_id = ?', (old_value, ctx.author.id, card_id))
         c_used.execute(f'UPDATE used_items SET used_{item} = ? WHERE user_id = ?', (result[0] - 1, ctx.author.id))

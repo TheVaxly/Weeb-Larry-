@@ -115,7 +115,7 @@ async def inv(ctx):
 
         # Loop through each item in the inventory and add it to the embed
         items = [
-            'Truck-kun',
+            'Truck kun',
             'Super Dragon Balls',
             'Death Note',
             'Sword of Rupture',
