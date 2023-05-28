@@ -23,7 +23,7 @@ async def show(ctx, id):
               (ctx.author.id, id, card[2]))
     result = c.fetchone()
     if card[5] == "UR":
-        embed = discord.Embed(title=f"**{card[1]}**", description=f"**Value**: {card[2]}\n**Rarity**: {card[5]}\n**Anime**: {card[6]}", color=0xeee657)
+        embed = discord.Embed(title=f"**{card[1]}**", description=f"**Power**: {card[2]}\n**Rarity**: {card[5]}\n**Anime**: {card[6]}", color=0xeee657)
         if result:
             embed.set_footer(text=f"Owned by {ctx.author.name} ✅ | Card id: {id}")
         elif not result:

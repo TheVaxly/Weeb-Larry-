@@ -13,8 +13,7 @@ load_dotenv()
 intents = discord.Intents.all()
 intents.members = True
 
-client = commands.Bot(command_prefix='!', intents=intents)
-
+client = commands.Bot(command_prefix='!', intents=intents, help_command=None)
 
 @client.event
 async def on_ready():
@@ -30,7 +29,7 @@ async def view_cards(ctx):
 async def view_all(ctx):
     await cards.carddd(ctx)
     
-@client.command(name="addcard", help="Add a card to your collection")
+@client.command(name="addcard", help="Add a card to your collection (Admin only)", aliases=['ac'])
 async def addcardy(ctx, card_id: int):
     await card.add_card(ctx, card_id)
 
@@ -158,6 +157,9 @@ async def inv(ctx):
 
 @client.command(name="sell", help="Sell an item from your inventory")
 async def selly(ctx, *item: str):
+    if len(item) == 0:
+        await ctx.send("Please enter an item to sell")
+        return
     amount = 1
     item_name = ""
     for word in item:
@@ -191,5 +193,55 @@ async def teamy(ctx, option: str=None, card_id: int=None, client=client):
 @client.command(name="battle", help="Battle another user")
 async def battley(ctx, user: discord.User=None):
     await battle.battle(ctx, user)
+
+@client.command(name="help", help="Shows this message")
+async def help(ctx, command: str = None):
+    if command is None:
+        embed = discord.Embed(title="Weeb Larry commands", color=16750592, description="The prefix is ! and is not currently changeable!\nUse !help <command> for more info on a specific command!")
+
+        income_commands = {
+            "addcard (Admin only)": "Add a card to your collection",
+            "addchips (Admin only)": "Add chips to a user",
+            "bal": "Check your Blackjack balance",
+            "battle": "Battle another user",
+            "daily": "Get 1000 chips once per day",
+            "quiz": "Do anime-related missions",
+            "weekly": "Get 5000 chips once per week"
+        }
+
+        card_commands = {
+            "pull": "Gacha the cards",
+            "team": "See your team",
+            "show": "Show a specific card",
+            "all": "See all cards",
+            "cards": "Check your cards"
+        }
+
+        gear_commands = {
+            "shop": "Buy items",
+            "inv": "Check your inventory",
+            "buy": "Buy an item from the shop",
+            "sell": "Sell an item from your inventory",
+            "equip": "Equip an item from your inventory",
+            "unequip": "Unequip an item from your inventory"
+        }
+
+        other_commands = {
+            "help": "Shows this message",
+        }
+
+        income_commands_list = "\n".join(f"- **{cmd}**: {desc}" for cmd, desc in income_commands.items())
+        card_commands_list = "\n".join(f"- **{cmd}**: {desc}" for cmd, desc in card_commands.items())
+        gear_commands_list = "\n".join(f"- **{cmd}**: {desc}" for cmd, desc in gear_commands.items())
+
+        embed.add_field(name=":money_mouth: Income", value=income_commands_list, inline=False)
+        embed.add_field(name=":credit_card: Cards", value=card_commands_list, inline=False)
+        embed.add_field(name=":crossed_swords: Gear", value=gear_commands_list, inline=False)
+        embed.add_field(name=":question: Other", value="\n".join(f"- **{cmd}**: {desc}" for cmd, desc in other_commands.items()), inline=False)
+
+        await ctx.send(embed=embed)
+    else:
+        # You can add code here to display detailed information about a specific command
+        await ctx.send(f"Command **{command}** doesen't have help yet **{ctx.author.name}!**")
 
 client.run(os.getenv('token'))
