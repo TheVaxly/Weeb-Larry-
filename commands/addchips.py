@@ -12,7 +12,7 @@ def update_balance(user_id, amount):
 
 async def add_chips(ctx, amount: int):
     if amount is None:
-        await ctx.send(embed=discord.Embed(title="Please specify an amount of chips to add.", color=0xff0000))
+        await ctx.send(embed=discord.Embed(title="Please specify an amount of ryō to add.", color=0xff0000))
         return
     user = ctx.message.author
     user_id = user.id

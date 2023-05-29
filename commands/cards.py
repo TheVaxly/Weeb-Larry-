@@ -63,7 +63,7 @@ async def carddd(ctx):
 
     while True:
         try:
-            reaction, user = await ctx.bot.wait_for('reaction_add', timeout=180, check=check)
+            reaction, user = await ctx.bot.wait_for('reaction_add', timeout=300, check=check)
         except:
             break
 
