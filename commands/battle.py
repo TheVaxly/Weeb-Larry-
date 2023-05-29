@@ -33,6 +33,23 @@ async def battle(ctx, opponent):
     elif not opponent:
         await ctx.send('You must specify an opponent.')
         return
+
+    user_id = ctx.author.id
+    opponent_id = opponent.id
+
+    # check if user has a team
+    teams_cursor.execute('SELECT * FROM teams WHERE user_id = ?', (user_id,))
+    user_team = teams_cursor.fetchone()
+    if not user_team:
+        await ctx.send('You do not have a team.')
+        return
+
+    # check if opponent has a team
+    teams_cursor.execute('SELECT * FROM teams WHERE user_id = ?', (opponent_id,))
+    opponent_team = teams_cursor.fetchone()
+    if not opponent_team:
+        await ctx.send('Opponent does not have a team.')
+        return
     
     # Send a message to the opponent to confirm the battle
     message = await ctx.send(f"{opponent.mention}, {ctx.author.mention} has challenged you to a battle. Do you accept? Type 'yes' or 'no'.")
@@ -51,23 +68,6 @@ async def battle(ctx, opponent):
         if response.content.lower() == 'no':
             await message.edit(content=f"{opponent.mention} has declined the battle.")
             return
-
-    user_id = ctx.author.id
-    opponent_id = opponent.id
-
-    # check if user has a team
-    teams_cursor.execute('SELECT * FROM teams WHERE user_id = ?', (user_id,))
-    user_team = teams_cursor.fetchone()
-    if not user_team:
-        await ctx.send('You do not have a team.')
-        return
-
-    # check if opponent has a team
-    teams_cursor.execute('SELECT * FROM teams WHERE user_id = ?', (opponent_id,))
-    opponent_team = teams_cursor.fetchone()
-    if not opponent_team:
-        await ctx.send('Opponent does not have a team.')
-        return
 
     # calculate user's total value
     user_total = 0

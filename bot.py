@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from discord.ext import commands
 import sqlite3
+import asyncio
 import commands.free_chips as free_chips, commands.shop as shop, commands.buy as buy
 import commands.addchips as addchips, commands.bal as bal, commands.mission as mission, commands.cards_team as cards_team
 import commands.card as card, commands.cards as cards, commands.pull as pull, commands.show as show
@@ -57,8 +58,11 @@ async def balance(ctx):
 
 @client.command(name="addchips", help="Add chips to a user (Admin only)", aliases=['adc'])
 @commands.has_role('Cheats')
-async def add_chipsy(ctx, amount: int=None):
-    await addchips.add_chips(ctx, amount)
+async def add_chipsy(ctx, amount: int=None, user: discord.Member=None):
+    if amount == None:
+        await addchips.add_chips(ctx, amount)
+    else:
+        await addchips.add_chips(ctx, amount, user)
 
 @client.command(name="quiz", help="Do anime related missions", aliases=['q'])
 async def missiony(ctx, client=client):
@@ -243,5 +247,18 @@ async def help(ctx, command: str = None):
     else:
         # You can add code here to display detailed information about a specific command
         await ctx.send(f"Command **{command}** doesen't have help yet **{ctx.author.name}!**")
+
+@client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, discord.HTTPException):
+        if error.status == 429:
+            # Bot has been rate-limited
+            retry_after = error.retry_after
+            print(f'Rate limited. Retrying after {retry_after} seconds.')
+            await asyncio.sleep(retry_after)
+            await ctx.reinvoke()  # Retry the command
+    else:
+        # Handle other errors as desired
+        pass
 
 client.run(os.getenv('token'))
