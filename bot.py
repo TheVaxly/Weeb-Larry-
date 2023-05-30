@@ -9,6 +9,8 @@ import commands.addchips as addchips, commands.bal as bal, commands.mission as m
 import commands.card as card, commands.cards as cards, commands.pull as pull, commands.show as show
 import commands.equip as equip, commands.battle as battle
 
+import Paginator
+
 load_dotenv()
 
 intents = discord.Intents.all()
@@ -172,7 +174,7 @@ async def selly(ctx, *item: str):
             break
         else:
             item_name += " " + word
-    item_name = item_name.strip() # Remove leading/trailing spaces
+    item_name = item_name.strip()
 
     await buy.sell(ctx, item_name, amount)
 
@@ -245,20 +247,146 @@ async def help(ctx, command: str = None):
 
         await ctx.send(embed=embed)
     else:
-        # You can add code here to display detailed information about a specific command
+
         await ctx.send(f"Command **{command}** doesen't have help yet **{ctx.author.name}!**")
 
 @client.event
 async def on_command_error(ctx, error):
     if isinstance(error, discord.HTTPException):
         if error.status == 429:
-            # Bot has been rate-limited
+
             retry_after = error.retry_after
             print(f'Rate limited. Retrying after {retry_after} seconds.')
             await asyncio.sleep(retry_after)
-            await ctx.reinvoke()  # Retry the command
+            await ctx.reinvoke() 
     else:
-        # Handle other errors as desired
+
         pass
+
+import requests
+import random
+from bs4 import BeautifulSoup
+
+def get_random_doujin(tag):
+    try:
+
+        tag_url = f'https://asmhentai.com/tag/{tag}/'
+        response = requests.get(tag_url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        pagination = soup.find('ul', class_='pagination')
+        pages = pagination.find_all('li', class_='page-item')
+        highest_page = max([int(page.find('a').text) for page in pages if page.find('a').text.isdigit()])
+
+        page_number = random.randint(1, highest_page)
+        tag_url = f'https://asmhentai.com/tag/{tag}/?page={page_number}'
+
+        response = requests.get(tag_url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        doujin_divs = soup.find_all('div', class_='image')
+
+        doujin_urls = []
+        for div in doujin_divs:
+            a_element = div.find('a', href=True)
+            if a_element and 'href' in a_element.attrs:
+                doujin_url = f"https://asmhentai.com{a_element['href']}"
+                doujin_urls.append(doujin_url)
+
+        if not doujin_urls:
+            return "No doujins found for the provided tag.", None
+
+        random_doujin_url = random.choice(doujin_urls)
+        return None, random_doujin_url, highest_page
+
+    except requests.exceptions.RequestException as e:
+        return f"An error occurred while fetching doujins: {e}", None
+
+    except Exception as e:
+        return f"An error occurred while parsing doujins: {e}", None
+
+
+@client.command(name='doujin', help='Get a random doujin for the provided tag', aliases=['d'])
+async def doujin(ctx, *, tag: str):
+    tags = tag.lower()
+    tags = tags.replace(' ', '-')
+    error_message, doujin_url, page = get_random_doujin(tags)
+    if error_message:
+        await ctx.send(error_message)
+    else:
+        try:
+            response = requests.get(doujin_url)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            cover_img = soup.find('div', class_='cover').find('img', class_='lazy')
+            cover_img_url = cover_img['data-src']
+            cover_img_url = cover_img_url.replace('//', 'https://')
+            doujin_title = cover_img['alt']
+
+            embed = discord.Embed(title=doujin_title, color=discord.Color.dark_purple())
+            embed.add_field(name="", value=f"URL: {doujin_url}", inline=False)
+            embed.set_image(url=cover_img_url)
+            embed.set_footer(text=f"Tag: {tag} ({page*20})\nRequested by {ctx.author.name}", icon_url=ctx.author.avatar)
+            await ctx.send(embed=embed)
+
+        except requests.exceptions.RequestException as e:
+            await ctx.send(f"An error occurred while fetching the doujin image: {e}")
+
+        except Exception as e:
+            await ctx.send(f"An error occurred while parsing the doujin page: {e}")
+
+import re
+
+@client.command(name='read', help='Read a doujin by code', aliases=['r'])
+async def read(ctx, code: str):
+    try:
+        doujin_url = f"https://asmhentai.com/gallery/{code}/1/"
+        response = requests.get(doujin_url)
+        if response.status_code == 404:
+            await ctx.send(f"Could not find the doujin")
+            return
+        soup = BeautifulSoup(response.content, 'html.parser')
+        page_img = soup.find('a', class_='fw_img').find('img', class_='lazy')
+        page_img_url = page_img['data-src']
+
+        page_button = soup.find('button', class_='pages_btn')
+        page_text = page_button.find('span', class_='tp').text
+
+        max_page = re.search(r'\d+', page_text).group()
+
+        max_page = int(max_page)
+
+        doujin_url2 = f"https://asmhentai.com/g/{code}/"
+
+        response = requests.get(doujin_url2)
+        soupa = BeautifulSoup(response.content, 'html.parser')
+
+        title_tag = soupa.find('title')
+
+        if title_tag:
+            doujin_title = title_tag.text.strip()
+        else:
+            raise Exception("Could not find the doujin title")
+
+        embeds = []
+
+        for i in range(1, max_page):
+            doujin_url = f"https://asmhentai.com/gallery/{code}/{i}/"
+            response = requests.get(doujin_url)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            page_img = soup.find('a', class_='fw_img').find('img', class_='lazy')
+            page_img_url = page_img['data-src']
+
+            embed = discord.Embed(title=f"**{doujin_title}**", color=discord.Color.dark_purple())
+            embed.add_field(name="", value=f"**Sauce: {code}**", inline=False)
+            embed.set_image(url=page_img_url)
+            embed.set_footer(text=f"Read by {ctx.author.name}", icon_url=ctx.author.avatar)
+            embeds.append(embed)
+        
+        await Paginator.Simple().start(ctx, embeds)
+    except requests.exceptions.RequestException as e:
+        await ctx.send(f"An error occurred while fetching the doujin page: {e}")
+
+    except Exception as e:
+        await ctx.send(f"An error occurred while parsing the doujin page: {e}")
+
+
 
 client.run(os.getenv('token'))
