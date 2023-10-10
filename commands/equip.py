@@ -10,7 +10,7 @@ c_inv = conn_inv.cursor()
 conn_used = sqlite3.connect('db/used_items.db')
 c_used = conn_used.cursor()
 
-c_used.execute('''CREATE TABLE IF NOT EXISTS used_items (user_id INTEGER, used_truck_kun INTEGER, used_super_dragon_balls INTEGER, used_death_note INTEGER, used_sword_of_rupture INTEGER, used_truth_seeking_orbs INTEGER, used_gun INTEGER, used_surasame INTEGER, used_dragon_slayer INTEGER, used_odm_gear INTEGER, used_super_tengen_toppa_gurren_lagann INTEGER, used_spear_of_longinus INTEGER, used_lostvayne INTEGER, used_katana INTEGER, used_kunai INTEGER, used_shuriken INTEGER, used_eggplant INTEGER)''')
+c_used.execute('''CREATE TABLE IF NOT EXISTS used_items (user_id INTEGER,used_mogus INTEGER, used_truck_kun INTEGER, used_super_dragon_balls INTEGER, used_death_note INTEGER, used_sword_of_rupture INTEGER, used_truth_seeking_orbs INTEGER, used_gun INTEGER, used_surasame INTEGER, used_dragon_slayer INTEGER, used_odm_gear INTEGER, used_super_tengen_toppa_gurren_lagann INTEGER, used_spear_of_longinus INTEGER, used_lostvayne INTEGER, used_katana INTEGER, used_kunai INTEGER, used_shuriken INTEGER, used_eggplant INTEGER)''')
 
 with open('db/items.json', 'r') as f:
     data = json.load(f)
@@ -19,6 +19,7 @@ with open('db/cards.json', 'r') as f:
     card_data = json.load(f)
 
 ITEMS = {
+    'mogus',
     'truck kun',
     'super dragon balls',
     'death note',
@@ -38,6 +39,7 @@ ITEMS = {
 }
 
 DB_ITEMS = {
+    'mogus',
     'truck_kun',
     'super_dragon_balls',
     'death_note',
@@ -57,6 +59,7 @@ DB_ITEMS = {
 }
 
 M_ITEMS = {
+    'mogus': 5,
     'truck_kun': 3.25,
     'super_dragon_balls': 2.85,
     'death_note': 2.5,
@@ -101,7 +104,7 @@ async def equip(ctx, card_id, item_name):
     c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
     results = c_used.fetchone()
     if results is None:
-        c_used.execute(f'INSERT INTO used_items VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', (ctx.author.id, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0))
+        c_used.execute(f'INSERT INTO used_items VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', (ctx.author.id, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0, 0))
         conn_used.commit()
         c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
         results = c_used.fetchone()
@@ -119,7 +122,7 @@ async def equip(ctx, card_id, item_name):
         c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
         result = c_used.fetchone()
         if result is None:
-            c_used.execute(f'INSERT INTO used_items VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', (ctx.author.id, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0))
+            c_used.execute(f'INSERT INTO used_items VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', (ctx.author.id, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0))
             conn_used.commit()
             c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
             result = c_used.fetchone()
@@ -155,7 +158,7 @@ async def unequip(ctx, card_id):
         c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
         result = c_used.fetchone()
         if result is None:
-            c_used.execute(f'INSERT INTO used_items VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', (ctx.author.id, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0))
+            c_used.execute(f'INSERT INTO used_items VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', (ctx.author.id, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0))
             conn_used.commit()
             c_used.execute(f'SELECT used_{item} FROM used_items WHERE user_id = ?', (ctx.author.id,))
             result = c_used.fetchone()

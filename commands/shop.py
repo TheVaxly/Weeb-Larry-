@@ -36,6 +36,7 @@ async def shopy(ctx, client):
 
     page_one = discord.Embed(title="**Gear Shop**", description="Items serve to multiply your card's power with the number in the brackets.", color=0x00ff00)
     page_one.add_field(name="══════════════════════════════", value="", inline=False)
+    page_one.add_field(name="``Mogus - (5x)`` | 100000 ryō", value="", inline=False)
     page_one.add_field(name="``Super Tengen Toppa Gurren Lagann - (2x)`` | 30000 ryō", value="", inline=False)
     page_one.add_field(name="``Spear Of Longinus - (1.5x)`` | 18000 ryō", value="", inline=False)
     page_one.add_field(name="``Lostvayne - (1.4x)`` | 12000 ryō", value="", inline=False)

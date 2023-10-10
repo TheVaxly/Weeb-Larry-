@@ -7,6 +7,8 @@ conn = sqlite3.connect('db/cards.db')
 c = conn.cursor()
 
 ITEMS = {
+
+    'mogus': 5,
     'truck_kun': 3.25,
     'super_dragon_balls': 2.85,
     'death_note': 2.5,

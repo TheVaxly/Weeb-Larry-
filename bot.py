@@ -8,8 +8,7 @@ import commands.free_chips as free_chips, commands.shop as shop, commands.buy as
 import commands.addchips as addchips, commands.bal as bal, commands.mission as mission, commands.cards_team as cards_team
 import commands.card as card, commands.cards as cards, commands.pull as pull, commands.show as show
 import commands.equip as equip, commands.battle as battle
-
-import Paginator
+   
 
 load_dotenv()
 
@@ -120,6 +119,7 @@ async def inv(ctx):
 
         # Loop through each item in the inventory and add it to the embed
         items = [
+            'Mogus',
             'Truck kun',
             'Super Dragon Balls',
             'Death Note',
@@ -332,6 +332,7 @@ async def doujin(ctx, *, tag: str):
         except Exception as e:
             await ctx.send(f"An error occurred while parsing the doujin page: {e}")
 
+from bs4 import BeautifulSoup
 import re
 
 @client.command(name='read', help='Read a doujin by code', aliases=['r'])
@@ -365,8 +366,6 @@ async def read(ctx, code: str):
         else:
             raise Exception("Could not find the doujin title")
 
-        embeds = []
-
         for i in range(1, max_page):
             doujin_url = f"https://asmhentai.com/gallery/{code}/{i}/"
             response = requests.get(doujin_url)
@@ -378,15 +377,13 @@ async def read(ctx, code: str):
             embed.add_field(name="", value=f"**Sauce: {code}**", inline=False)
             embed.set_image(url=page_img_url)
             embed.set_footer(text=f"Read by {ctx.author.name}", icon_url=ctx.author.avatar)
-            embeds.append(embed)
-        
-        await Paginator.Simple().start(ctx, embeds)
+            
+            await ctx.send(embed=embed)
+            
     except requests.exceptions.RequestException as e:
         await ctx.send(f"An error occurred while fetching the doujin page: {e}")
 
     except Exception as e:
         await ctx.send(f"An error occurred while parsing the doujin page: {e}")
-
-
 
 client.run(os.getenv('token'))

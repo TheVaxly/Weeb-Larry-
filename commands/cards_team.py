@@ -22,6 +22,7 @@ tc.execute('''CREATE TABLE IF NOT EXISTS teams
                     FOREIGN KEY(card_3) REFERENCES cards(id),
                     FOREIGN KEY(card_4) REFERENCES cards(id))''')
 DB_ITEMS = {
+    'mogus': 5,
     'truck_kun': 3.25,
     'super_dragon_balls': 2.85,
     'death_note': 2.5,

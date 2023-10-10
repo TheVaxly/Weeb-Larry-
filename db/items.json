@@ -79,6 +79,11 @@
             "id": 16,
             "name": "odm gear",
             "multiplier": 1.7
+        },
+        {
+            "id": 17,
+            "name": "mogus",
+            "multiplier": 5
         }
     ]
 }
